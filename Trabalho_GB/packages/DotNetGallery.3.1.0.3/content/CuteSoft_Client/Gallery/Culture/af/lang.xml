@@ -1,0 +1,25 @@
+<!-- af : AFRIKAANS -->
+<resources>
+  <resource name="LANGUAGE">AFRIKAANS</resource>
+  <resource name="LOCATION"> Plek </resource>
+  <resource name="NUMCOMMENTS"> Kommentaar </resource>
+  <resource name="DEFAULTCATEGORYNAME"> (Standaard) </resource>
+  <resource name="DEFAULTSENDERNAME"> (Guest) </resource>
+  <resource name="CLICK_EDIT"> Verander </resource>
+  <resource name="CLICK_DELETE"> Verwyder </resource>
+  <resource name="CLICK_CLOSE"> Maak </resource>
+  <resource name="CLICK_OPENPHOTO"> Open </resource>
+  <resource name="CLICK_OPENCATEGORY"> Open </resource>
+  <resource name="CLICK_SHOWEDITOR"> Bestuurder Console </resource>
+  <resource name="CLICK_SHOWSLIDER"> Wys Slider </resource>
+  <resource name="CLICK_UPLOADFILES"> Laai lêers </resource>
+  <resource name="CLICK_NEWCATEGORY"> Nuwe Kategorie </resource>
+  <resource name="CLICK_ADDCOMMENT"> Reactie toevoegen </resource>
+  <resource name="CLICK_DELETECOMMENT"> Reactie verwyder </resource>
+  <resource name="PROMPT_TYPECATEGORYNAME"> asb insette kategorie naam </resource>
+  <resource name="PROMPT_TYPEPHOTONAME"> Please input foto titel </resource>
+  <resource name="PROMPT_TYPECOMMENT"> asb insette nuwe kommentaar by </resource>
+  <resource name="CONFIRM_CLICK_DELETEPHOTO"> Is jy seker jy wil verwyder foto van '(0)'? </resource>
+  <resource name="CONFIRM_CLICK_DELETECATEGORY"> Is jy seker jy wil verwyder kategorie '(0)' is en al sy lêers? </resource>
+  <resource name="CONFIRM_CLICK_DELETECOMMENT"> Is jy seker jy wil Verwyder kommentaar "(0) 'is?</resource>
+</resources>

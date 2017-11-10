@@ -1,0 +1,71 @@
+.GalleryDirectoryItem , .GalleryPhotoItem
+{
+	margin-left:4px;
+	margin-right:4px;
+	margin-top:4px;
+	margin-bottom:8px;
+	float:left;
+	width:96px;
+	height:120px;
+	padding-top:4px;
+	padding-left:4px;
+	padding-right:4px;
+	padding-bottom:4px;
+}
+.GalleryItemImageCell
+{
+	border:solid 0px #eeeeee;
+	text-align:center;
+	vertical-align:middle;
+	height:72px;
+}
+
+.GalleryItemText
+{
+	font-size:9pt;
+	width:96px;
+	display:inline-block;
+	overflow:hidden;
+}
+
+.GalleryItemNumComments
+{
+	font-size:7pt;
+}
+
+.GalleryItemSelected
+{
+	background-image:url(Images/back-sel1.gif);
+	background-repeat:no-repeat;
+}
+
+.GalleryItemHover
+{
+	background-image:url(Images/back-sel1.gif);
+	background-repeat:no-repeat;
+}
+
+.GalleryItemHoverSelected
+{
+	background-image:url(Images/back-sel2.gif);
+	background-repeat:no-repeat;
+}
+
+.GalleryButtonUp
+{
+	background-image:url(Images/backfolder.png);
+	background-repeat:no-repeat;
+	background-position:0px 2px;
+	cursor:pointer;
+}
+.GalleryButtonUp
+{
+	_background-image:url(Images/backfolder.gif);
+}
+
+
+
+
+
+
+

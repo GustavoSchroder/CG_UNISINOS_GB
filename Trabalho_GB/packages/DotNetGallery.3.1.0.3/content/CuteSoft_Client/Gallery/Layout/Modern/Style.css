@@ -1,0 +1,71 @@
+.BlackSliderButton
+{
+	margin-left:2px;
+	margin-right:2px;
+	cursor:hand;
+	padding:3px;
+	margin-top:4px;
+}
+.BlackSliderButton:hover
+{
+	background-color:orange;
+}
+.GalleryInformaion
+{
+	text-align:right;
+	padding-right:10px;
+}
+.GalleryInformaion span
+{
+	margin:0px 5px 0px 0px;
+	font-weight:bold;
+}
+.GalleryPhotoBox
+{
+	text-align:center;
+	background-color:#666666;
+	vertical-align:middle;
+}
+
+.GalleryPhotoItem
+{
+	text-align:center;
+	vertical-align:middle;
+	float:left;
+	width:80px;
+	height:80px;
+	margin:4px 2px 4px 2px;
+}
+
+.GalleryItemSelected
+{
+	background-color:Orange;
+}
+
+.SlideShowPrevBtn
+{
+	cursor:hand;
+	position:absolute;
+	background-color:White;
+	width:64px;
+	height:24px;
+	top:50%;
+	left:12px;
+	background-image:url(Images/prev.png);
+	border-bottom:solid 2px #333333;
+	border-left-style:none;
+}
+
+.SlideShowNextBtn
+{
+	cursor:hand;
+	position:absolute;
+	background-color:White;
+	width:64px;
+	height:24px;
+	top:50%;
+	right:12px;
+	background-image:url(Images/next.png);
+	border-bottom:solid 2px #333333;
+	border-right-style:none;
+}

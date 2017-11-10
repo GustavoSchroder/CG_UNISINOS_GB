@@ -1,0 +1,25 @@
+<!-- sk : SLOVAK -->
+<resources>
+  <resource name="LANGUAGE">SLOVAK</resource>
+  <resource name="LOCATION"> Miesto </resource>
+  <resource name="NUMCOMMENTS"> Poznámky </resource>
+  <resource name="DEFAULTCATEGORYNAME"> (Default) </resource>
+  <resource name="DEFAULTSENDERNAME"> (hosť) </resource>
+  <resource name="CLICK_EDIT"> Upraviť </resource>
+  <resource name="CLICK_DELETE"> Odstrániť </resource>
+  <resource name="CLICK_CLOSE"> Zavrieť </resource>
+  <resource name="CLICK_OPENPHOTO"> Open </resource>
+  <resource name="CLICK_OPENCATEGORY"> Open </resource>
+  <resource name="CLICK_SHOWEDITOR"> Admin Konzoly </resource>
+  <resource name="CLICK_SHOWSLIDER"> Zobraziť Posuvník </resource>
+  <resource name="CLICK_UPLOADFILES"> Upload obrázkov </resource>
+  <resource name="CLICK_NEWCATEGORY"> Nová kategória </resource>
+  <resource name="CLICK_ADDCOMMENT"> Pridať komentár </resource>
+  <resource name="CLICK_DELETECOMMENT"> Odstrániť komentár </resource>
+  <resource name="PROMPT_TYPECATEGORYNAME"> Zadajte prosím názov kategórie </resource>
+  <resource name="PROMPT_TYPEPHOTONAME"> Zadajte prosím titulku fotografie </resource>
+  <resource name="PROMPT_TYPECOMMENT"> Zadajte prosím nový komentár </resource>
+  <resource name="CONFIRM_CLICK_DELETEPHOTO"> Naozaj chcete zmazať fotografiu '(0)'? </resource>
+  <resource name="CONFIRM_CLICK_DELETECATEGORY"> Naozaj chcete zmazať kategóriu '(0)' a všetky súbory? </resource>
+  <resource name="CONFIRM_CLICK_DELETECOMMENT"> Ste si istí, že chcete zmazať komentár '(0)'?</resource>
+</resources>

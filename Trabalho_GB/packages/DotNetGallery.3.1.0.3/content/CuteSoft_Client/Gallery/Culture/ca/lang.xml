@@ -1,0 +1,25 @@
+<!-- ca : CATALAN -->
+<resources>
+  <resource name="LANGUAGE">CATALAN</resource>
+  <resource name="LOCATION"> Ubicació </resource>
+  <resource name="NUMCOMMENTS"> Comentaris </resource>
+  <resource name="DEFAULTCATEGORYNAME"> (per defecte) </resource>
+  <resource name="DEFAULTSENDERNAME"> (Convidat) </resource>
+  <resource name="CLICK_EDIT"> Edita </resource>
+  <resource name="CLICK_DELETE"> Esborrar </resource>
+  <resource name="CLICK_CLOSE"> Tancar </resource>
+  <resource name="CLICK_OPENPHOTO"> Obrir </resource>
+  <resource name="CLICK_OPENCATEGORY"> Obrir </resource>
+  <resource name="CLICK_SHOWEDITOR"> consola de l'administrador </resource>
+  <resource name="CLICK_SHOWSLIDER"> Mostra Slider </resource>
+  <resource name="CLICK_UPLOADFILES"> Pujar arxius </resource>
+  <resource name="CLICK_NEWCATEGORY"> Nova Categoria </resource>
+  <resource name="CLICK_ADDCOMMENT"> Afegeix un comentari </resource>
+  <resource name="CLICK_DELETECOMMENT"> Esborrar comentari </resource>
+  <resource name="PROMPT_TYPECATEGORYNAME"> Per us plau, nom de la categoria d'entrada </resource>
+  <resource name="PROMPT_TYPEPHOTONAME"> Si us plau, títol de l'entrada de fotos </resource>
+  <resource name="PROMPT_TYPECOMMENT"> Comenteu nou missatge </resource>
+  <resource name="CONFIRM_CLICK_DELETEPHOTO"> Estàs segur que voleu eliminar de fotografia '(0)'? </resource>
+  <resource name="CONFIRM_CLICK_DELETECATEGORY"> Estàs segur que voleu suprimir la categoria "(0) 'i tots els seus arxius? </resource>
+  <resource name="CONFIRM_CLICK_DELETECOMMENT"> Estàs segur que voleu esborrar comentari '(0)'?</resource>
+</resources>

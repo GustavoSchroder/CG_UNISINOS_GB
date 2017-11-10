@@ -1,0 +1,25 @@
+<!-- es : SPANISH -->
+<resources>
+  <resource name="LANGUAGE">SPANISH</resource>
+  <resource name="LOCATION"> Ubicación </resource>
+  <resource name="NUMCOMMENTS"> Comentarios </resource>
+  <resource name="DEFAULTCATEGORYNAME"> (por defecto) </resource>
+  <resource name="DEFAULTSENDERNAME"> (Invitado) </resource>
+  <resource name="CLICK_EDIT"> Editar </resource>
+  <resource name="CLICK_DELETE"> Borrar </resource>
+  <resource name="CLICK_CLOSE"> Cerrar </resource>
+  <resource name="CLICK_OPENPHOTO"> Abrir </resource>
+  <resource name="CLICK_OPENCATEGORY"> Abrir </resource>
+  <resource name="CLICK_SHOWEDITOR"> Consola del administrador </resource>
+  <resource name="CLICK_SHOWSLIDER"> Mostrar Slider </resource>
+  <resource name="CLICK_UPLOADFILES"> Subir archivos </resource>
+  <resource name="CLICK_NEWCATEGORY"> Nueva Categoría </resource>
+  <resource name="CLICK_ADDCOMMENT"> Agregar un comentario </resource>
+  <resource name="CLICK_DELETECOMMENT"> Borrar comentario </resource>
+  <resource name="PROMPT_TYPECATEGORYNAME"> Por favor, nombre de la categoría de entrada </resource>
+  <resource name="PROMPT_TYPEPHOTONAME"> Por favor, título de la entrada de fotos </resource>
+  <resource name="PROMPT_TYPECOMMENT"> Comente nueva entrada </resource>
+  <resource name="CONFIRM_CLICK_DELETEPHOTO"> ¿Estás seguro de que desea eliminar de foto '(0)'? </resource>
+  <resource name="CONFIRM_CLICK_DELETECATEGORY"> ¿Estás seguro de que desea eliminar la categoría "(0) 'y todos sus archivos? </resource>
+  <resource name="CONFIRM_CLICK_DELETECOMMENT"> ¿Estás seguro de que desea borrar comentario '(0)'?</resource>
+</resources>

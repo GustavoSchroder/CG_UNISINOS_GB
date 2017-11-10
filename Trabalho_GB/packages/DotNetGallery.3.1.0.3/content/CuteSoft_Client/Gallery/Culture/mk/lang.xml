@@ -1,0 +1,25 @@
+<!-- mk : MACEDONIAN -->
+<resources>
+  <resource name="LANGUAGE">MACEDONIAN</resource>
+  <resource name="LOCATION"> Локација </resource>
+  <resource name="NUMCOMMENTS"> Коментари </resource>
+  <resource name="DEFAULTCATEGORYNAME"> (стандардно) </resource>
+  <resource name="DEFAULTSENDERNAME"> (Guest) </resource>
+  <resource name="CLICK_EDIT"> Уреди </resource>
+  <resource name="CLICK_DELETE"> Избриши </resource>
+  <resource name="CLICK_CLOSE"> Затвори </resource>
+  <resource name="CLICK_OPENPHOTO"> Open </resource>
+  <resource name="CLICK_OPENCATEGORY"> Open </resource>
+  <resource name="CLICK_SHOWEDITOR"> Административна конзола </resource>
+  <resource name="CLICK_SHOWSLIDER"> Прикажи Slider </resource>
+  <resource name="CLICK_UPLOADFILES"> Подигни датотека </resource>
+  <resource name="CLICK_NEWCATEGORY"> Ново Категорија сајтот </resource>
+  <resource name="CLICK_ADDCOMMENT"> Додај коментар </resource>
+  <resource name="CLICK_DELETECOMMENT"> Избриши Коментари </resource>
+  <resource name="PROMPT_TYPECATEGORYNAME"> внесете категорија име </resource>
+  <resource name="PROMPT_TYPEPHOTONAME"> Ве молиме да користите слика титула </resource>
+  <resource name="PROMPT_TYPECOMMENT"> внесете нов коментар </resource>
+  <resource name="CONFIRM_CLICK_DELETEPHOTO"> Дали сте сигурни дека сакате да избришете слика '(0)'? </resource>
+  <resource name="CONFIRM_CLICK_DELETECATEGORY"> Дали сте сигурни дека сакате да ја избришете категоријата '(0)' и сите датотеки? </resource>
+  <resource name="CONFIRM_CLICK_DELETECOMMENT"> Дали сте сигурни дека сакате да Коментар избришете '(0)'?</resource>
+</resources>

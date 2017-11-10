@@ -1,0 +1,25 @@
+<!-- be : BELARUSIAN -->
+<resources>
+  <resource name="LANGUAGE">BELARUSIAN</resource>
+  <resource name="LOCATION"> Размяшчэнне </resource>
+  <resource name="NUMCOMMENTS"> Каментары </resource>
+  <resource name="DEFAULTCATEGORYNAME"> (па змаўчанні) </resource>
+  <resource name="DEFAULTSENDERNAME"> (Госць) </resource>
+  <resource name="CLICK_EDIT"> Рэдагаваць </resource>
+  <resource name="CLICK_DELETE"> Выдаліць </resource>
+  <resource name="CLICK_CLOSE"> Зачыніць </resource>
+  <resource name="CLICK_OPENPHOTO"> Адчыніць </resource>
+  <resource name="CLICK_OPENCATEGORY"> Адчыніць </resource>
+  <resource name="CLICK_SHOWEDITOR"> кансоль адміністратара </resource>
+  <resource name="CLICK_SHOWSLIDER"> Паказаць Slider </resource>
+  <resource name="CLICK_UPLOADFILES"> Загрузка файлаў </resource>
+  <resource name="CLICK_NEWCATEGORY"> Новая катэгорыя </resource>
+  <resource name="CLICK_ADDCOMMENT"> Дадаць каментар </resource>
+  <resource name="CLICK_DELETECOMMENT"> Выдаліць каментар </resource>
+  <resource name="PROMPT_TYPECATEGORYNAME"> Калі ласка, ўводзіце назву катэгорыі </resource>
+  <resource name="PROMPT_TYPEPHOTONAME"> калі ласка, ўводзіце Назва фатаграфіі </resource>
+  <resource name="PROMPT_TYPECOMMENT"> Калі ласка, ўводзіце новы каментар </resource>
+  <resource name="CONFIRM_CLICK_DELETEPHOTO"> Вы ўпэўненыя, што жадаеце выдаліць фота '(0)'? </resource>
+  <resource name="CONFIRM_CLICK_DELETECATEGORY"> Вы ўпэўненыя, што жадаеце выдаліць катэгорыю '(0)' і ўсе яго файлы? </resource>
+  <resource name="CONFIRM_CLICK_DELETECOMMENT"> Вы ўпэўненыя, што хочаце Выдаліць каментар "(0) '?</resource>
+</resources>

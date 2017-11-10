@@ -1,0 +1,25 @@
+<!-- lv : LATVIAN -->
+<resources>
+  <resource name="LANGUAGE">LATVIAN</resource>
+  <resource name="LOCATION"> Atrašanās vieta </resource>
+  <resource name="NUMCOMMENTS"> Komentāri </resource>
+  <resource name="DEFAULTCATEGORYNAME"> (Default branch) </resource>
+  <resource name="DEFAULTSENDERNAME"> (Guest) </resource>
+  <resource name="CLICK_EDIT"> Edit </resource>
+  <resource name="CLICK_DELETE"> Delete </resource>
+  <resource name="CLICK_CLOSE"> Aizvērt </resource>
+  <resource name="CLICK_OPENPHOTO"> Open </resource>
+  <resource name="CLICK_OPENCATEGORY"> Open </resource>
+  <resource name="CLICK_SHOWEDITOR"> Admin Console </resource>
+  <resource name="CLICK_SHOWSLIDER"> Rādīt Slider </resource>
+  <resource name="CLICK_UPLOADFILES"> Upload files </resource>
+  <resource name="CLICK_NEWCATEGORY"> Jauna kategorija </resource>
+  <resource name="CLICK_ADDCOMMENT"> Pievienot komentāru </resource>
+  <resource name="CLICK_DELETECOMMENT"> Dzēst Comment </resource>
+  <resource name="PROMPT_TYPECATEGORYNAME"> Lūdzu ievadi kategorijas nosaukuma </resource>
+  <resource name="PROMPT_TYPEPHOTONAME"> Lūdzu ievadi foto nosaukums </resource>
+  <resource name="PROMPT_TYPECOMMENT"> Lūdzu ievadi komentāru </resource>
+  <resource name="CONFIRM_CLICK_DELETEPHOTO"> Vai jūs tiešām vēlaties izdzēst fotogrāfijas "(0)"? </resource>
+  <resource name="CONFIRM_CLICK_DELETECATEGORY"> Vai jūs tiešām vēlaties izdzēst kategoriju "(0)", un visus failus? </resource>
+  <resource name="CONFIRM_CLICK_DELETECOMMENT"> Vai jūs tiešām vēlaties Dzēst komentāru "(0)"?</resource>
+</resources>

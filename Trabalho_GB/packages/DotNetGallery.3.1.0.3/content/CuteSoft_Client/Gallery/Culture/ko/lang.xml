@@ -1,0 +1,26 @@
+<!-- ko : KOREAN -->
+<resources>
+  <resource name="LANGUAGE">KOREAN</resource>
+  <resource name="LOCATION"> 회사 위치 </resource>
+  <resource name="NUMCOMMENTS"> 댓글 </resource>
+  <resource name="DEFAULTCATEGORYNAME"> (기본값) </resource>
+  <resource name="DEFAULTSENDERNAME"> (게스트) </resource>
+  <resource name="CLICK_EDIT"> 수정 </resource>
+  <resource name="CLICK_DELETE"> 삭제 </resource>
+  <resource name="CLICK_CLOSE"> 닫기 </resource>
+  <resource name="CLICK_OPENPHOTO"> 열기 </resource>
+  <resource name="CLICK_OPENCATEGORY"> 열기 </resource>
+  <resource name="CLICK_SHOWEDITOR"> 관리자 콘솔 </resource>
+  <resource name="CLICK_SHOWSLIDER"> 슬라이더보기 </resource>
+  <resource name="CLICK_UPLOADFILES"> 파일 업로드 </resource>
+  <resource name="CLICK_NEWCATEGORY"> 새 카테고리 </resource>
+  <resource name="CLICK_ADDCOMMENT">
+  </resource>
+  <resource name="CLICK_DELETECOMMENT"> 삭제 코멘트 </resource>
+  <resource name="PROMPT_TYPECATEGORYNAME"> 입력하십시오 카테고리 이름 </resource>
+  <resource name="PROMPT_TYPEPHOTONAME"> 댓글 올리기 사진 입력하십시오 제목 </resource>
+  <resource name="PROMPT_TYPECOMMENT"> 새 코멘트를 입력하십시오 </resource>
+  <resource name="CONFIRM_CLICK_DELETEPHOTO"> 당신은 '(0)'? </resource>
+  <resource name="CONFIRM_CLICK_DELETECATEGORY"> 당신 '카테고리를 삭제하시겠습니까 사진을 삭제하시겠습니까 (0)'및 모든 파일? </resource>
+  <resource name="CONFIRM_CLICK_DELETECOMMENT"> 당신시겠습니까 '댓글을 삭제 (0)'?</resource>
+</resources>

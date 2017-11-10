@@ -1,0 +1,25 @@
+<!-- gl : GALICIAN -->
+<resources>
+  <resource name="LANGUAGE">GALICIAN</resource>
+  <resource name="LOCATION"> Localización </resource>
+  <resource name="NUMCOMMENTS"> Comentarios </resource>
+  <resource name="DEFAULTCATEGORYNAME"> (por defecto) </resource>
+  <resource name="DEFAULTSENDERNAME"> (Guest) </resource>
+  <resource name="CLICK_EDIT"> Edit </resource>
+  <resource name="CLICK_DELETE"> Borrar </resource>
+  <resource name="CLICK_CLOSE"> Pechar </resource>
+  <resource name="CLICK_OPENPHOTO"> Aberto </resource>
+  <resource name="CLICK_OPENCATEGORY"> Open </resource>
+  <resource name="CLICK_SHOWEDITOR"> semana </resource>
+  <resource name="CLICK_SHOWSLIDER"> Amosar Slider </resource>
+  <resource name="CLICK_UPLOADFILES"> Subir arquivos </resource>
+  <resource name="CLICK_NEWCATEGORY"> Novo Categoría </resource>
+  <resource name="CLICK_ADDCOMMENT"> comentar </resource>
+  <resource name="CLICK_DELETECOMMENT"> Borrar Comentario </resource>
+  <resource name="PROMPT_TYPECATEGORYNAME"> Por favor, artigo de entrada </resource>
+  <resource name="PROMPT_TYPEPHOTONAME"> Por favor, título da imaxe de entrada </resource>
+  <resource name="PROMPT_TYPECOMMENT"> Por favor, relacionadas nova entrada </resource>
+  <resource name="CONFIRM_CLICK_DELETEPHOTO"> Vostede está seguro que quere eliminar foto '(0)'? </resource>
+  <resource name="CONFIRM_CLICK_DELETECATEGORY"> Vostede está seguro que quere eliminar categoría '(0)' e todos os seus arquivos? </resource>
+  <resource name="CONFIRM_CLICK_DELETECOMMENT"> Vostede está seguro que quere borrar comentario '(0)'?</resource>
+</resources>

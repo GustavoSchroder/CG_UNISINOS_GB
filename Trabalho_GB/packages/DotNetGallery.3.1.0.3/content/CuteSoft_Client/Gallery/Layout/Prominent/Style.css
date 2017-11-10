@@ -1,0 +1,46 @@
+.GalleryPhotoBox
+{
+	background-color:#666666;
+	vertical-align:middle;
+}
+.GalleryPhotoShape
+{
+	background-color:Gray;
+	filter:alpha(opacity=50);       /* IE */ 
+	-moz-opacity:0.5;              /* Moz + FF */ 
+	opacity: 0.5;
+}
+
+.GalleryInformaion span
+{
+	margin:0px 5px 0px 0px;
+	font-weight:bold;
+	color:White;
+}
+.SlideShowPrevBtn
+{
+	cursor:pointer;
+	position:absolute;
+	background-color:White;
+	width:64px;
+	height:24px;
+	top:50%;
+	left:12px;
+	background-image:url(Images/prev.png);
+	border-bottom:solid 2px #333333;
+	border-left-style:none;
+}
+
+.SlideShowNextBtn
+{
+	cursor:pointer;
+	position:absolute;
+	background-color:White;
+	width:64px;
+	height:24px;
+	top:50%;
+	right:12px;
+	background-image:url(Images/next.png);
+	border-bottom:solid 2px #333333;
+	border-right-style:none;
+}

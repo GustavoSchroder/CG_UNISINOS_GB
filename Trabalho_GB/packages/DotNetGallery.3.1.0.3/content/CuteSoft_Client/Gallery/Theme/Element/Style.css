@@ -1,0 +1,152 @@
+/*This style file define the Well-Known classes*/
+
+
+.Viewer
+{
+	overflow:hidden;
+	margin:0px;
+	padding:0px;
+}
+.Slider
+{
+	background-color:black;
+	color:white;
+	overflow:hidden;
+	margin:0px;
+	padding:0px;
+}
+
+
+.GalleryLayout
+{
+	
+}
+
+.GalleryTooltip
+{
+	font-size:12px;
+	background-color:#fffeee;
+}
+
+/*classes defined in Theme/Code.js*/
+
+.GalleryItemHover .GalleryPhotoContainer1,.GalleryItemHover .GalleryThumbnailContainer1
+{
+	background-image:url(Images/corner-red-1.png);
+}
+.GalleryItemHover .GalleryPhotoContainer2,.GalleryItemHover .GalleryThumbnailContainer2
+{
+	background-image:url(Images/corner-red-2.png);
+}
+
+.GalleryItemSelected .GalleryPhotoContainer1,.GalleryItemSelected .GalleryThumbnailContainer1
+{
+	background-image:url(Images/corner-red-1.png);
+}
+.GalleryItemSelected .GalleryPhotoContainer2,.GalleryItemSelected .GalleryThumbnailContainer2
+{
+	background-image:url(Images/corner-red-2.png);
+}
+
+.GalleryItemHoverSelected .GalleryPhotoContainer1,.GalleryItemHoverSelected .GalleryThumbnailContainer1
+{
+	background-image:url(Images/corner-red-1.png);
+}
+.GalleryItemHoverSelected .GalleryPhotoContainer2,.GalleryItemHoverSelected .GalleryThumbnailContainer2
+{
+	background-image:url(Images/corner-red-2.png);
+}
+
+
+
+.GalleryPhotoContainer1,.GalleryThumbnailContainer1
+{
+	background-image:url(Images/corner-blue-1.png);
+	background-repeat:no-repeat;
+	display:inline-block;
+}
+.GalleryPhotoContainer1:hover,.GalleryThumbnailContainer1:hover
+{
+	background-image:url(Images/corner-red-1.png);
+}
+.GalleryPhotoContainer2,.GalleryThumbnailContainer2
+{
+	background-image:url(Images/corner-blue-2.png);
+	background-repeat:no-repeat;
+	background-position:100% 100%;
+	margin-top:2px;
+	margin-left:2px;
+	height:100%;
+	display:inline-block;
+}
+.GalleryPhotoContainer2:hover,.GalleryThumbnailContainer2:hover
+{
+	background-image:url(Images/corner-red-2.png);
+}
+.GalleryPhotoImage,.GalleryThumbnailImage
+{
+	margin-right:2px;
+	margin-bottom:2px;
+}
+
+.GalleryTooltipContainer1
+{
+	height:100%;
+	background-image:url(Images/corner-blue-1.png);
+	background-repeat:no-repeat;
+	padding-left:2px;
+	padding-top:2px;
+}
+.GalleryTooltipContainer2
+{
+	height:100%;
+	padding-left:6px;
+	padding-top:6px;
+	padding-right:8px;
+	padding-bottom:8px;
+	background-image:url(Images/corner-blue-2.png);
+	background-repeat:no-repeat;
+	background-position:100% 100%;
+}
+
+.GalleryTooltipContainer1:hover
+{
+	background-image:url(Images/corner-red-1.png);
+}
+.GalleryTooltipContainer2:hover
+{
+	background-image:url(Images/corner-red-2.png);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

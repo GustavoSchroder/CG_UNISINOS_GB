@@ -1,0 +1,25 @@
+<!-- el : GREEK -->
+<resources>
+  <resource name="LANGUAGE">GREEK</resource>
+  <resource name="LOCATION"> Τοποθεσία </resource>
+  <resource name="NUMCOMMENTS"> Σχόλια </resource>
+  <resource name="DEFAULTCATEGORYNAME"> (Default) </resource>
+  <resource name="DEFAULTSENDERNAME"> (Αποτελέσματα) </resource>
+  <resource name="CLICK_EDIT"> Επεξεργασία </resource>
+  <resource name="CLICK_DELETE"> Διαγραφή </resource>
+  <resource name="CLICK_CLOSE"> Κλείσιμο </resource>
+  <resource name="CLICK_OPENPHOTO"> Open </resource>
+  <resource name="CLICK_OPENCATEGORY"> Open </resource>
+  <resource name="CLICK_SHOWEDITOR"> Κονσόλα Διαχειριστή </resource>
+  <resource name="CLICK_SHOWSLIDER"> Παρουσίαση Slider </resource>
+  <resource name="CLICK_UPLOADFILES"> Ανεβάστε αρχεία </resource>
+  <resource name="CLICK_NEWCATEGORY"> Νέα Κατηγορία </resource>
+  <resource name="CLICK_ADDCOMMENT"> Προσθήκη Σχολίου </resource>
+  <resource name="CLICK_DELETECOMMENT"> Διαγραφή Σχόλιο </resource>
+  <resource name="PROMPT_TYPECATEGORYNAME"> Παρακαλώ όνομα της κατηγορίας των εισροών </resource>
+  <resource name="PROMPT_TYPEPHOTONAME"> Παρακαλώ τίτλος φωτογραφία εισροών </resource>
+  <resource name="PROMPT_TYPECOMMENT"> Παρακαλώ εισόδου νέων σχόλιο </resource>
+  <resource name="CONFIRM_CLICK_DELETEPHOTO"> Είστε σίγουροι ότι θέλετε να διαγράψετε φωτογραφία '(0)'; </resource>
+  <resource name="CONFIRM_CLICK_DELETECATEGORY"> Είστε σίγουροι ότι θέλετε να διαγράψετε την κατηγορία '(0)' και όλα τα αρχεία της; </resource>
+  <resource name="CONFIRM_CLICK_DELETECOMMENT"> Είστε σίγουροι ότι θέλετε να delete σχόλιο "(0) ';</resource>
+</resources>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+	<resource name="LANGUAGE">English(US)</resource>
+	<resource name="LOCATION">Location</resource>
+	<resource name="NUMCOMMENTS">Comments</resource>
+	<resource name="DEFAULTCATEGORYNAME">(Default)</resource>
+	<resource name="DEFAULTSENDERNAME">(Guest)</resource>
+	<resource name="CLICK_EDIT">Edit</resource>
+	<resource name="CLICK_DELETE">Delete</resource>
+	<resource name="CLICK_CLOSE">Close</resource>
+	<resource name="CLICK_OPENPHOTO">Open</resource>
+	<resource name="CLICK_OPENCATEGORY">Open</resource>
+	<resource name="CLICK_SHOWEDITOR">Admin Console</resource>
+	<resource name="CLICK_SHOWSLIDER">Show Slider</resource>
+	<resource name="CLICK_UPLOADFILES">Upload files</resource>
+	<resource name="CLICK_NEWCATEGORY">New Category</resource>
+	<resource name="CLICK_ADDCOMMENT">Add Comment</resource>
+	<resource name="CLICK_DELETECOMMENT">Delete Comment</resource>
+	<resource name="PROMPT_TYPECATEGORYNAME">Please input category name</resource>
+	<resource name="PROMPT_TYPEPHOTONAME">Please input photo title</resource>
+	<resource name="PROMPT_TYPECOMMENT">Please input new comment</resource>
+	<resource name="CONFIRM_CLICK_DELETEPHOTO">Are you sure you want to delete photo '{0}' ?</resource>
+	<resource name="CONFIRM_CLICK_DELETECATEGORY">Are you sure you want to delete category '{0}' and all its files ?</resource>
+	<resource name="CONFIRM_CLICK_DELETECOMMENT">Are you sure you want to delete comment '{0}' ?</resource>
+</resources>

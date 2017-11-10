@@ -1,0 +1,25 @@
+<!-- vi : VIETNAMESE -->
+<resources>
+  <resource name="LANGUAGE">VIETNAMESE</resource>
+  <resource name="LOCATION"> Vị trí </resource>
+  <resource name="NUMCOMMENTS"> Bình luận </resource>
+  <resource name="DEFAULTCATEGORYNAME"> (mặc định) </resource>
+  <resource name="DEFAULTSENDERNAME"> (Khách) </resource>
+  <resource name="CLICK_EDIT"> Chỉnh sửa </resource>
+  <resource name="CLICK_DELETE"> Xóa </resource>
+  <resource name="CLICK_CLOSE"> Đóng </resource>
+  <resource name="CLICK_OPENPHOTO"> Mở </resource>
+  <resource name="CLICK_OPENCATEGORY"> Open </resource>
+  <resource name="CLICK_SHOWEDITOR"> Admin Console </resource>
+  <resource name="CLICK_SHOWSLIDER"> hiện trượt </resource>
+  <resource name="CLICK_UPLOADFILES"> Upload file </resource>
+  <resource name="CLICK_NEWCATEGORY"> New loại </resource>
+  <resource name="CLICK_ADDCOMMENT"> Thêm bình luận </resource>
+  <resource name="CLICK_DELETECOMMENT"> Xóa luận </resource>
+  <resource name="PROMPT_TYPECATEGORYNAME"> Vui lòng nhập vào tên thể loại </resource>
+  <resource name="PROMPT_TYPEPHOTONAME"> Xin vui lòng nhập tiêu đề ảnh </resource>
+  <resource name="PROMPT_TYPECOMMENT"> Hãy bình luận đầu vào mới </resource>
+  <resource name="CONFIRM_CLICK_DELETEPHOTO"> Bạn có chắc chắn muốn xóa hình ảnh '(0)'? </resource>
+  <resource name="CONFIRM_CLICK_DELETECATEGORY"> Bạn có chắc chắn muốn xóa danh mục '(0)' và tất cả các tác phẩm của mình? </resource>
+  <resource name="CONFIRM_CLICK_DELETECOMMENT"> Bạn có chắc là bạn muốn xóa comment '(0)'?</resource>
+</resources>

@@ -1,0 +1,25 @@
+<!-- mt : MALTESE -->
+<resources>
+  <resource name="LANGUAGE">MALTESE</resource>
+  <resource name="LOCATION"> Location </resource>
+  <resource name="NUMCOMMENTS"> Kummenti </resource>
+  <resource name="DEFAULTCATEGORYNAME"> (Default) </resource>
+  <resource name="DEFAULTSENDERNAME"> (Guest) </resource>
+  <resource name="CLICK_EDIT"> Edit </resource>
+  <resource name="CLICK_DELETE"> Ħassar </resource>
+  <resource name="CLICK_CLOSE"> Close </resource>
+  <resource name="CLICK_OPENPHOTO"> Open </resource>
+  <resource name="CLICK_OPENCATEGORY"> Open </resource>
+  <resource name="CLICK_SHOWEDITOR"> Admin Console </resource>
+  <resource name="CLICK_SHOWSLIDER"> Show slider </resource>
+  <resource name="CLICK_UPLOADFILES"> fajls Itellgħu </resource>
+  <resource name="CLICK_NEWCATEGORY"> Ġdid Kategorija </resource>
+  <resource name="CLICK_ADDCOMMENT"> Add Comment </resource>
+  <resource name="CLICK_DELETECOMMENT"> Ħassar Kumment </resource>
+  <resource name="PROMPT_TYPECATEGORYNAME"> Jekk jogħġbok isem tal-kategorija input </resource>
+  <resource name="PROMPT_TYPEPHOTONAME"> Jekk jogħġbok input photo titolu </resource>
+  <resource name="PROMPT_TYPECOMMENT"> Jekk jogħġbok ikkummenta input ġdid </resource>
+  <resource name="CONFIRM_CLICK_DELETEPHOTO"> Ċert li trid tneħħi photo "(0)"? </resource>
+  <resource name="CONFIRM_CLICK_DELETECATEGORY"> Ċert li trid tħassar il-kategorija "(0)" u l-fajls kollha tagħha? </resource>
+  <resource name="CONFIRM_CLICK_DELETECOMMENT"> Inti żgur li trid ħassar kumment "(0)"?</resource>
+</resources>

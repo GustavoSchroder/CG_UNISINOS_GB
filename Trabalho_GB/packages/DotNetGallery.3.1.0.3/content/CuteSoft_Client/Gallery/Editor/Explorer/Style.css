@@ -1,0 +1,163 @@
+
+.GalleryEditorFrame
+{
+	border:solid 2px #999999;
+	background-color:White;
+	color:#000000;
+}
+
+.GalleryEditorTitlebar
+{
+	cursor:move;
+	height:24px;
+	background-color:gray;
+	border-bottom:groove 1px gray;
+}
+.GalleryEditorLeftToolbar
+{
+	text-align:left;
+	border-bottom:groove 1px gray;
+}
+.GalleryEditorRightToolbar
+{
+	text-align:right;
+	float:right;
+}
+
+
+.GalleryEditorButton
+{
+	display:inline-block;
+	padding:4px;
+	cursor:default;
+}
+.GalleryEditorButton IMG
+{
+	vertical-align:bottom;
+}
+.GalleryEditorButtonHover
+{
+	background-color:orange;
+}
+
+
+.GalleryEditorLeftFrame
+{
+	height:340px;
+	width:135px;
+	float:left;
+	border-right:groove 1px gray;
+	border-bottom:groove 1px gray;
+	overflow:auto;
+}
+.GalleryEditorRightFrame
+{
+	height:340px;
+	border-bottom:groove 1px gray;
+	overflow:auto;
+}
+.GalleryEditorUploadPanel
+{
+	
+}
+.GalleryEditorUploadProgress
+{
+	height:48px;
+}
+
+.GalleryEditorStatusbar
+{
+	height:32px;
+	padding:4px;
+}
+
+.GalleryEditorStatusLeft
+{
+}
+.GalleryEditorStatusRight
+{
+}
+
+.GalleryEditorCategory
+{
+	padding-top:4px;
+	padding-left:4px;
+	height:20px;
+	cursor:default;
+}
+.GalleryEditorCategory:hover
+{
+	background-color:#CCCCCC;
+}
+.GalleryEditorCategorySelected
+{
+	background-color:#999999;
+}
+.GalleryEditorCategorySelected:hover
+{
+	background-color:#CCCCCC;
+}
+
+
+
+.GalleryEditorPhoto
+{
+	margin-left:4px;
+	margin-right:4px;
+	margin-top:4px;
+	margin-bottom:8px;
+	float:left;
+	width:96px;
+	height:112px;
+	padding-top:4px;
+	padding-left:4px;
+	padding-right:4px;
+	padding-bottom:4px;
+}
+.GalleryEditorPhotoImageCell
+{
+	border:solid 0px #eeeeee;
+	text-align:center;
+	vertical-align:middle;
+	height:72px;
+}
+
+.GalleryEditorPhotoText
+{
+	font-size:9pt;
+	width:96px;
+	display:inline-block;
+	overflow:hidden;
+}
+
+.GalleryEditorPhotoNumComments
+{
+	font-size:7pt;
+}
+
+.GalleryEditorPhotoSelected
+{
+	background-image:url(Images/back-sel1.gif);
+	background-repeat:no-repeat;
+}
+
+.GalleryEditorPhoto:hover
+{
+	background-image:url(Images/back-sel1.gif);
+	background-repeat:no-repeat;
+}
+
+.GalleryEditorPhotoSelected:hover
+{
+	background-image:url(Images/back-sel2.gif);
+	background-repeat:no-repeat;
+}
+
+
+
+
+
+
+
+
+

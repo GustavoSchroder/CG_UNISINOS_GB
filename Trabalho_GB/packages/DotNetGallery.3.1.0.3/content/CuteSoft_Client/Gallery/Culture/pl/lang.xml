@@ -1,0 +1,25 @@
+<!-- pl : POLISH -->
+<resources>
+  <resource name="LANGUAGE">POLISH</resource>
+  <resource name="LOCATION"> Lokalizacja </resource>
+  <resource name="NUMCOMMENTS"> Komentarze </resource>
+  <resource name="DEFAULTCATEGORYNAME"> (Domyślna) </resource>
+  <resource name="DEFAULTSENDERNAME"> (Guest) </resource>
+  <resource name="CLICK_EDIT"> Edytuj </resource>
+  <resource name="CLICK_DELETE"> Usuń </resource>
+  <resource name="CLICK_CLOSE"> Zamknij </resource>
+  <resource name="CLICK_OPENPHOTO"> Open </resource>
+  <resource name="CLICK_OPENCATEGORY"> Open </resource>
+  <resource name="CLICK_SHOWEDITOR"> Konsola administracyjna </resource>
+  <resource name="CLICK_SHOWSLIDER"> Pokaż Slider </resource>
+  <resource name="CLICK_UPLOADFILES"> Upload plików </resource>
+  <resource name="CLICK_NEWCATEGORY"> Nowa kategoria </resource>
+  <resource name="CLICK_ADDCOMMENT"> Dodaj komentarz </resource>
+  <resource name="CLICK_DELETECOMMENT"> Usuń komentarz </resource>
+  <resource name="PROMPT_TYPECATEGORYNAME"> Podaj nazwę kategorii wejście </resource>
+  <resource name="PROMPT_TYPEPHOTONAME"> Proszę tytuł Fotografia wejście </resource>
+  <resource name="PROMPT_TYPECOMMENT"> Proszę wpisać nowy komentarz </resource>
+  <resource name="CONFIRM_CLICK_DELETEPHOTO"> Czy na pewno chcesz usunąć zdjęcie '(0)'? </resource>
+  <resource name="CONFIRM_CLICK_DELETECATEGORY"> Czy na pewno chcesz usunąć kategorii '(0) ", a wszystkie swoje pliki? </resource>
+  <resource name="CONFIRM_CLICK_DELETECOMMENT"> Czy na pewno chcesz Usuń komentarz "(0) '?</resource>
+</resources>

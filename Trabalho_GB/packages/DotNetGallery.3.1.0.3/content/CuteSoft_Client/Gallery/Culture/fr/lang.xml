@@ -1,0 +1,25 @@
+<!-- fr : FRENCH -->
+<resources>
+  <resource name="LANGUAGE">FRENCH</resource>
+  <resource name="LOCATION"> Location </resource>
+  <resource name="NUMCOMMENTS"> Commentaires </resource>
+  <resource name="DEFAULTCATEGORYNAME"> (par défaut) </resource>
+  <resource name="DEFAULTSENDERNAME"> (Guest) </resource>
+  <resource name="CLICK_EDIT"> Editer </resource>
+  <resource name="CLICK_DELETE"> Supprimer </resource>
+  <resource name="CLICK_CLOSE"> Fermer </resource>
+  <resource name="CLICK_OPENPHOTO"> Open </resource>
+  <resource name="CLICK_OPENCATEGORY"> Open </resource>
+  <resource name="CLICK_SHOWEDITOR"> Admin Console </resource>
+  <resource name="CLICK_SHOWSLIDER"> Afficher Slider </resource>
+  <resource name="CLICK_UPLOADFILES"> Transférer des fichiers </resource>
+  <resource name="CLICK_NEWCATEGORY"> Nouvelle catégorie </resource>
+  <resource name="CLICK_ADDCOMMENT"> Ajouter un commentaire </resource>
+  <resource name="CLICK_DELETECOMMENT"> Supprimer le commentaire </resource>
+  <resource name="PROMPT_TYPECATEGORYNAME"> S'il vous plaît nom de la catégorie </resource>
+  <resource name="PROMPT_TYPEPHOTONAME"> S'il vous plaît titre de la photo d'entrée </resource>
+  <resource name="PROMPT_TYPECOMMENT"> S'il vous plaît commentaire nouvelles contributions </resource>
+  <resource name="CONFIRM_CLICK_DELETEPHOTO"> Êtes-vous sûr de vouloir supprimer la photo '(0)'? </resource>
+  <resource name="CONFIRM_CLICK_DELETECATEGORY"> Êtes-vous sûr de vouloir supprimer la catégorie '(0)' et tous ses fichiers? </resource>
+  <resource name="CONFIRM_CLICK_DELETECOMMENT"> Êtes-vous sûr de vouloir Supprimer le commentaire '(0)'?</resource>
+</resources>

@@ -1,0 +1,25 @@
+<!-- et : ESTONIAN -->
+<resources>
+  <resource name="LANGUAGE">ESTONIAN</resource>
+  <resource name="LOCATION"> Asukoht </resource>
+  <resource name="NUMCOMMENTS"> Märkused </resource>
+  <resource name="DEFAULTCATEGORYNAME"> (Vaikimisi) </resource>
+  <resource name="DEFAULTSENDERNAME"> (külalisena) </resource>
+  <resource name="CLICK_EDIT"> Muuda </resource>
+  <resource name="CLICK_DELETE"> Kustuta </resource>
+  <resource name="CLICK_CLOSE"> Sulge </resource>
+  <resource name="CLICK_OPENPHOTO"> Ava </resource>
+  <resource name="CLICK_OPENCATEGORY"> Ava </resource>
+  <resource name="CLICK_SHOWEDITOR"> konsooli </resource>
+  <resource name="CLICK_SHOWSLIDER"> Näita Slider </resource>
+  <resource name="CLICK_UPLOADFILES"> Upload fail </resource>
+  <resource name="CLICK_NEWCATEGORY"> Uus Kategooria </resource>
+  <resource name="CLICK_ADDCOMMENT"> Lisa kommentaar </resource>
+  <resource name="CLICK_DELETECOMMENT"> Kustuta Kommentaar </resource>
+  <resource name="PROMPT_TYPECATEGORYNAME"> Palun sisend kategooria nimetus </resource>
+  <resource name="PROMPT_TYPEPHOTONAME"> Palun sisend foto pealkiri </resource>
+  <resource name="PROMPT_TYPECOMMENT"> Palun sisestada uus kommentaar </resource>
+  <resource name="CONFIRM_CLICK_DELETEPHOTO"> Kas soovite kindlasti kustutada foto "(0) '? </resource>
+  <resource name="CONFIRM_CLICK_DELETECATEGORY"> Kas soovite kindlasti kustutada kategooria" (0)' ja kõik oma failid? </resource>
+  <resource name="CONFIRM_CLICK_DELETECOMMENT"> Oled sa kindel, et tahad Kustuta kommentaar "(0) '?</resource>
+</resources>

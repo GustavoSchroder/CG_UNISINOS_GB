@@ -1,0 +1,25 @@
+<!-- hr : CROATIAN -->
+<resources>
+  <resource name="LANGUAGE">CROATIAN</resource>
+  <resource name="LOCATION"> Lokacija </resource>
+  <resource name="NUMCOMMENTS"> Komentari </resource>
+  <resource name="DEFAULTCATEGORYNAME"> (Zadano) </resource>
+  <resource name="DEFAULTSENDERNAME"> (Gost) </resource>
+  <resource name="CLICK_EDIT"> Edit </resource>
+  <resource name="CLICK_DELETE"> Delete </resource>
+  <resource name="CLICK_CLOSE"> Close </resource>
+  <resource name="CLICK_OPENPHOTO"> Open </resource>
+  <resource name="CLICK_OPENCATEGORY"> Open </resource>
+  <resource name="CLICK_SHOWEDITOR"> Admin Console </resource>
+  <resource name="CLICK_SHOWSLIDER"> Prikaži Slider </resource>
+  <resource name="CLICK_UPLOADFILES"> Upload datoteke </resource>
+  <resource name="CLICK_NEWCATEGORY"> novu kategoriju </resource>
+  <resource name="CLICK_ADDCOMMENT"> Dodaj Komentar </resource>
+  <resource name="CLICK_DELETECOMMENT"> Izbriši komentar </resource>
+  <resource name="PROMPT_TYPECATEGORYNAME"> Molimo unos naziva kategorije </resource>
+  <resource name="PROMPT_TYPEPHOTONAME"> Molimo unos fotografija naslov </resource>
+  <resource name="PROMPT_TYPECOMMENT"> Please input novi komentar </resource>
+  <resource name="CONFIRM_CLICK_DELETEPHOTO"> Jeste li sigurni da želite izbrisati fotografija '(0)'? </resource>
+  <resource name="CONFIRM_CLICK_DELETECATEGORY"> Jeste li sigurni da želite izbrisati kategoriji '(0)' i sve njegove datoteke? </resource>
+  <resource name="CONFIRM_CLICK_DELETECOMMENT"> Jeste li sigurni da želite brisanje komentara '(0)'?</resource>
+</resources>

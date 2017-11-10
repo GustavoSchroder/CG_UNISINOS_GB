@@ -1,0 +1,25 @@
+<!-- uk : UKRAINIAN -->
+<resources>
+  <resource name="LANGUAGE">UKRAINIAN</resource>
+  <resource name="LOCATION"> Розташування </resource>
+  <resource name="NUMCOMMENTS"> Коментарі </resource>
+  <resource name="DEFAULTCATEGORYNAME"> (за замовчуванням) </resource>
+  <resource name="DEFAULTSENDERNAME"> (Гость) </resource>
+  <resource name="CLICK_EDIT"> Редагувати </resource>
+  <resource name="CLICK_DELETE"> Видалити </resource>
+  <resource name="CLICK_CLOSE"> Закрити </resource>
+  <resource name="CLICK_OPENPHOTO"> Відкрити </resource>
+  <resource name="CLICK_OPENCATEGORY"> Відкрити </resource>
+  <resource name="CLICK_SHOWEDITOR"> консоль адміністратора </resource>
+  <resource name="CLICK_SHOWSLIDER"> Показати Slider </resource>
+  <resource name="CLICK_UPLOADFILES"> Завантаження файлів </resource>
+  <resource name="CLICK_NEWCATEGORY"> Нова категорія </resource>
+  <resource name="CLICK_ADDCOMMENT"> Додати коментар </resource>
+  <resource name="CLICK_DELETECOMMENT"> Видалити коментар </resource>
+  <resource name="PROMPT_TYPECATEGORYNAME"> Будь-ласка, введіть назву категорії </resource>
+  <resource name="PROMPT_TYPEPHOTONAME"> Будь ласка, вводите Назва фотографії </resource>
+  <resource name="PROMPT_TYPECOMMENT"> Будь-ласка, вводите новий коментар </resource>
+  <resource name="CONFIRM_CLICK_DELETEPHOTO"> Ви впевнені, що хочете видалити фото '(0)'? </resource>
+  <resource name="CONFIRM_CLICK_DELETECATEGORY"> Ви впевнені, що хочете видалити категорію '(0)' і всі його файли? </resource>
+  <resource name="CONFIRM_CLICK_DELETECOMMENT"> Ви впевнені, що хочете Видалити коментар "(0) '?</resource>
+</resources>

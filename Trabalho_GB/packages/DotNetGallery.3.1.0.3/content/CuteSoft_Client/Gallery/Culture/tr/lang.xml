@@ -1,0 +1,26 @@
+<!-- tr : TURKISH -->
+<resources>
+  <resource name="LANGUAGE">TURKISH</resource>
+  <resource name="LOCATION"> Ulaşım </resource>
+  <resource name="NUMCOMMENTS"> yorum </resource>
+  <resource name="DEFAULTCATEGORYNAME"> (Varsayılan) </resource>
+  <resource name="DEFAULTSENDERNAME"> (Misafir) </resource>
+  <resource name="CLICK_EDIT"> Düzenle </resource>
+  <resource name="CLICK_DELETE"> Sil </resource>
+  <resource name="CLICK_CLOSE"> Kapat </resource>
+  <resource name="CLICK_OPENPHOTO"> Aç </resource>
+  <resource name="CLICK_OPENCATEGORY"> Aç </resource>
+  <resource name="CLICK_SHOWEDITOR"> Yönetici Konsolu </resource>
+  <resource name="CLICK_SHOWSLIDER"> göster Slider </resource>
+  <resource name="CLICK_UPLOADFILES"> Dosya Upload </resource>
+  <resource name="CLICK_NEWCATEGORY"> Yeni Kategori </resource>
+  <resource name="CLICK_ADDCOMMENT">
+  </resource>
+  <resource name="CLICK_DELETECOMMENT"> Sil </resource>
+  <resource name="PROMPT_TYPECATEGORYNAME"> Lütfen giriş kategori adı </resource>
+  <resource name="PROMPT_TYPEPHOTONAME"> Add Comment Lütfen giriş fotoğrafı Başlık </resource>
+  <resource name="PROMPT_TYPECOMMENT"> giriş yeni yorum Lütfen </resource>
+  <resource name="CONFIRM_CLICK_DELETEPHOTO"> size '(0)'? </resource>
+  <resource name="CONFIRM_CLICK_DELETECATEGORY"> size 'kategorisini silmek istediğinizden emin misiniz fotoğrafı silmek istediğinizden emin misiniz (0)' ve tüm dosyalar? </resource>
+  <resource name="CONFIRM_CLICK_DELETECOMMENT"> sizin istediğinizden emin misiniz 'yorumu silmek (0)'?</resource>
+</resources>

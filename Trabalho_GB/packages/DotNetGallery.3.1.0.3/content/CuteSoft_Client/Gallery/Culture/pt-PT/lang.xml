@@ -1,0 +1,25 @@
+<!-- pt-PT : PORTUGUESE -->
+<resources>
+  <resource name="LANGUAGE">PORTUGUESE</resource>
+  <resource name="LOCATION"> Localização </resource>
+  <resource name="NUMCOMMENTS"> Comentários </resource>
+  <resource name="DEFAULTCATEGORYNAME"> (Padrão) </resource>
+  <resource name="DEFAULTSENDERNAME"> (Guest) </resource>
+  <resource name="CLICK_EDIT"> Edit </resource>
+  <resource name="CLICK_DELETE"> Delete </resource>
+  <resource name="CLICK_CLOSE"> Close </resource>
+  <resource name="CLICK_OPENPHOTO"> Aberto </resource>
+  <resource name="CLICK_OPENCATEGORY"> Open </resource>
+  <resource name="CLICK_SHOWEDITOR"> Administrativo </resource>
+  <resource name="CLICK_SHOWSLIDER"> Mostrar Slider </resource>
+  <resource name="CLICK_UPLOADFILES"> Fazer upload de arquivos </resource>
+  <resource name="CLICK_NEWCATEGORY"> Novo Categoria </resource>
+  <resource name="CLICK_ADDCOMMENT"> comentar </resource>
+  <resource name="CLICK_DELETECOMMENT"> Apagar Comentário </resource>
+  <resource name="PROMPT_TYPECATEGORYNAME"> Por favor, nome da categoria de entrada </resource>
+  <resource name="PROMPT_TYPEPHOTONAME"> Por favor, título da foto de entrada </resource>
+  <resource name="PROMPT_TYPECOMMENT"> Por favor, comente nova entrada </resource>
+  <resource name="CONFIRM_CLICK_DELETEPHOTO"> Você tem certeza que quer apagar foto '(0)'? </resource>
+  <resource name="CONFIRM_CLICK_DELETECATEGORY"> Você tem certeza que quer apagar categoria '(0)' e todos os seus arquivos? </resource>
+  <resource name="CONFIRM_CLICK_DELETECOMMENT"> Você tem certeza que quer apagar comentário '(0)'?</resource>
+</resources>

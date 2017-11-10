@@ -1,0 +1,25 @@
+<!-- zh : CHINESE -->
+<resources>
+  <resource name="LANGUAGE">CHINESE</resource>
+  <resource name="LOCATION">位置</resource>
+  <resource name="NUMCOMMENTS">评论</resource>
+  <resource name="DEFAULTCATEGORYNAME">（默认）</resource>
+  <resource name="DEFAULTSENDERNAME">（客户）</resource>
+  <resource name="CLICK_EDIT">编辑</resource>
+  <resource name="CLICK_DELETE">删除</resource>
+  <resource name="CLICK_CLOSE">关闭</resource>
+  <resource name="CLICK_OPENPHOTO">开放</resource>
+  <resource name="CLICK_OPENCATEGORY">开放</resource>
+  <resource name="CLICK_SHOWEDITOR">管理控制台</resource>
+  <resource name="CLICK_SHOWSLIDER">显示滑块</resource>
+  <resource name="CLICK_UPLOADFILES">上传文件</resource>
+  <resource name="CLICK_NEWCATEGORY">新分类</resource>
+  <resource name="CLICK_ADDCOMMENT">添加评论</resource>
+  <resource name="CLICK_DELETECOMMENT">删除评论</resource>
+  <resource name="PROMPT_TYPECATEGORYNAME">请输入类别名称</resource>
+  <resource name="PROMPT_TYPEPHOTONAME">请输入照片名称</resource>
+  <resource name="PROMPT_TYPECOMMENT">请输入新评论</resource>
+  <resource name="CONFIRM_CLICK_DELETEPHOTO">您确定要删除照片'(0)'？</resource>
+  <resource name="CONFIRM_CLICK_DELETECATEGORY">您确定要删除分类'(0)'及其所有档案？</resource>
+  <resource name="CONFIRM_CLICK_DELETECOMMENT">您确定要删除评论'(0)'？</resource>
+</resources>

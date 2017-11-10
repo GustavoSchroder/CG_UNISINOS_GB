@@ -1,0 +1,88 @@
+
+.LightBoxMask
+{
+	rem-filter: alpha(opacity=66);
+	rem-opacity: 0.66;
+	rem--moz-opacity: 0.66;
+	background-color: #333333;
+}
+
+.LightBoxFrame
+{
+	background-color: white;
+	border: solid 3px #CCCCCC;
+}
+
+.LightBoxPrevBtn
+{
+	cursor:pointer;
+	position:absolute;
+	background-color:White;
+	width:64px;
+	height:24px;
+	top:120px;
+	left:12px;
+	background-image:url(Images/prev.png);
+	border-bottom:solid 2px #333333;
+	border-left-style:none;
+}
+
+.LightBoxNextBtn
+{
+	cursor:pointer;
+	position:absolute;
+	background-color:White;
+	width:64px;
+	height:24px;
+	top:120px;
+	right:12px;
+	background-image:url(Images/next.png);
+	border-bottom:solid 2px #333333;
+	border-right-style:none;
+}
+
+.LightBoxCloseBtn
+{
+	cursor:pointer;
+	float:right;
+	width:64px;
+	height:24px;
+	top:0px;
+	right:0px;
+	border:solid 2px #cccccc;
+	background-image:url(Images/close.png)
+}
+.LightBoxCloseBtn
+{
+	_background-image:url(Images/close.gif)
+}
+.LightBoxCloseBtn:hover
+{
+	border-bottom:solid 2px #333333;
+	background-color:white;
+}
+
+.LightBoxToolbar
+{
+	background-color: #cccccc;
+}
+
+.LightBoxPhotoInfo
+{
+	padding: 4px;
+	float: right;
+	color: #666666;
+}
+
+.LightBoxPhotoTitle
+{
+	padding: 4px;
+	font-weight: bold;
+	color: #333333;
+}
+
+.LightBoxPhotoDescription
+{
+	padding: 8px;
+	color: #666666;
+}

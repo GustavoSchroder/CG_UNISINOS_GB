@@ -1,0 +1,25 @@
+<!-- de : GERMAN -->
+<resources>
+  <resource name="LANGUAGE">GERMAN</resource>
+  <resource name="LOCATION"> Lage </resource>
+  <resource name="NUMCOMMENTS"> Kommentare </resource>
+  <resource name="DEFAULTCATEGORYNAME"> (Default) </resource>
+  <resource name="DEFAULTSENDERNAME"> (Gast) </resource>
+  <resource name="CLICK_EDIT"> Bearbeiten </resource>
+  <resource name="CLICK_DELETE"> Löschen </resource>
+  <resource name="CLICK_CLOSE"> Schließen </resource>
+  <resource name="CLICK_OPENPHOTO"> Öffnen </resource>
+  <resource name="CLICK_OPENCATEGORY"> Öffnen </resource>
+  <resource name="CLICK_SHOWEDITOR"> Admin-Konsole </resource>
+  <resource name="CLICK_SHOWSLIDER"> Show Slider </resource>
+  <resource name="CLICK_UPLOADFILES"> Dateien hochladen </resource>
+  <resource name="CLICK_NEWCATEGORY"> Neue Kategorie </resource>
+  <resource name="CLICK_ADDCOMMENT"> Kommentar hinzufügen </resource>
+  <resource name="CLICK_DELETECOMMENT"> Kommentar löschen </resource>
+  <resource name="PROMPT_TYPECATEGORYNAME"> Bitte geben Sie Name der Kategorie </resource>
+  <resource name="PROMPT_TYPEPHOTONAME"> Bitte geben Sie Foto Titel </resource>
+  <resource name="PROMPT_TYPECOMMENT"> Bitte geben Sie Ihr Kommentar </resource>
+  <resource name="CONFIRM_CLICK_DELETEPHOTO"> Sind Sie sicher, dass Sie zum Foto löschen '(0)'? </resource>
+  <resource name="CONFIRM_CLICK_DELETECATEGORY"> Sind Sie sicher, dass Sie Kategorie löschen '(0) "und alle seine Dateien? </resource>
+  <resource name="CONFIRM_CLICK_DELETECOMMENT"> Sind Sie sicher, dass Sie Kommentar löschen '(0)?</resource>
+</resources>

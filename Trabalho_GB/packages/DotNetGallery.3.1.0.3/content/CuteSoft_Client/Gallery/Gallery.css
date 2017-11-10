@@ -1,0 +1,169 @@
+
+/* GalleryMenu z-index is fixed to 7777777 (7x7) */
+
+.ZINDEXZOOMINPHOTO
+{
+	z-index:108000;
+}
+
+.ZINDEXTOOLTIP
+{
+	z-index:107000;
+}
+
+/* GalleryDialog z-index is fixed to 6666666 (6x7) */
+
+.ZINDEXDIALOG
+{
+	z-index:106000;
+}
+
+.ZINDEXLIGHTBOXFRAME
+{
+	z-index:105000;
+}
+
+.ZINDEXLIGHTBOXMASK
+{
+	z-index:104000;
+}
+
+.ZINDEXEDITOR
+{
+	z-index:103000;
+}
+
+.ZINDEXSLIDER
+{
+	z-index:102000;
+}
+
+/* see GalleryCreateThumbnail_Initialize */
+.GalleryVisitedLink:visited
+{
+	visited:1;
+}
+
+
+TABLE.GalleryLayout
+{
+	border-style:none;
+}
+TABLE.GalleryLayout TD
+{
+	border-style:none;
+	border-color:#cccccc;
+}
+TABLE.GalleryLayout TABLE TD
+{
+	border-style:none;
+	border-color:#cccccc;
+}
+
+.GalleryButton
+{
+	cursor:pointer;
+	padding:4px;
+	margin:2px;
+}
+
+.GalleryButton:hover
+{
+	cursor:pointer;
+	padding:5px;
+	margin:1px;
+}
+
+.GalleryTooltipNumComments
+{
+	color:blue;
+	padding-left:4px;
+}
+.GalleryCommentDotDotDot
+{
+	padding-left:36px;
+}
+.GalleryComment
+{
+	padding-left:12px;
+	padding-right:12px;
+}
+.GalleryCommentTime
+{
+	float:right;
+}
+.GalleryCommentUser
+{
+	color:Navy;
+}
+.GalleryCommentText
+{
+	color:DarkGreen;
+}
+
+.GalleryDialog
+{
+	border:solid 2px #999999;
+	background-color:White;
+	overflow:hidden;
+	font-size:12px;
+}
+.GalleryDialog TABLE
+{
+	font-size:12px;
+}
+.GalleryDialogTitle
+{
+	background-color:gray;
+}
+.GalleryDialogCloseBtn
+{
+	float:right;
+	width:20px;
+	height:20px;
+	font-size:14px;
+	font-weight:bold;
+	color:White;
+	cursor:pointer;
+	text-align:center;
+}
+.GalleryDialogCloseBtn:hover
+{
+	color:orange;
+}
+.GalleryDialogContent
+{
+	overflow:auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

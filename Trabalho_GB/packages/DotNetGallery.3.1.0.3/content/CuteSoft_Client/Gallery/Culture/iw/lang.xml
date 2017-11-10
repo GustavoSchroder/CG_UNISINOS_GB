@@ -1,0 +1,25 @@
+<!-- iw : HEBREW -->
+<resources>
+  <resource name="LANGUAGE">HEBREW</resource>
+  <resource name="LOCATION"> מיקום </resource>
+  <resource name="NUMCOMMENTS"> תגובות </resource>
+  <resource name="DEFAULTCATEGORYNAME"> (ברירת המחדל) </resource>
+  <resource name="DEFAULTSENDERNAME"> (אורח) </resource>
+  <resource name="CLICK_EDIT"> ערוך </resource>
+  <resource name="CLICK_DELETE"> מחק </resource>
+  <resource name="CLICK_CLOSE"> סגור </resource>
+  <resource name="CLICK_OPENPHOTO"> פתח </resource>
+  <resource name="CLICK_OPENCATEGORY"> פתח </resource>
+  <resource name="CLICK_SHOWEDITOR"> ניהול מסוף </resource>
+  <resource name="CLICK_SHOWSLIDER"> הצג Slider </resource>
+  <resource name="CLICK_UPLOADFILES"> העלאת קבצים </resource>
+  <resource name="CLICK_NEWCATEGORY"> ניו קטגוריה </resource>
+  <resource name="CLICK_ADDCOMMENT"> הוסף תגובה </resource>
+  <resource name="CLICK_DELETECOMMENT"> מחק תגובה </resource>
+  <resource name="PROMPT_TYPECATEGORYNAME"> בבקשה שם הקטגוריה קלט </resource>
+  <resource name="PROMPT_TYPEPHOTONAME"> אנא הכותרת תמונה קלט </resource>
+  <resource name="PROMPT_TYPECOMMENT"> אנא תגובה קלט חדש </resource>
+  <resource name="CONFIRM_CLICK_DELETEPHOTO"> האם אתה בטוח שאתה רוצה למחוק את התמונה '(0)'? </resource>
+  <resource name="CONFIRM_CLICK_DELETECATEGORY"> האם אתה בטוח שאתה רוצה למחוק את הקטגוריה "(0) 'ואת כל הקבצים שלה? </resource>
+  <resource name="CONFIRM_CLICK_DELETECOMMENT"> האם אתה בטוח שאתה רוצה למחוק תגובה "(0) '?</resource>
+</resources>

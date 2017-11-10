@@ -1,0 +1,25 @@
+<!-- ga : IRISH -->
+<resources>
+  <resource name="LANGUAGE">IRISH</resource>
+  <resource name="LOCATION"> Suíomh </resource>
+  <resource name="NUMCOMMENTS"> Comments </resource>
+  <resource name="DEFAULTCATEGORYNAME"> (réamhshocraithe) </resource>
+  <resource name="DEFAULTSENDERNAME"> (aoi) </resource>
+  <resource name="CLICK_EDIT"> Cuir </resource>
+  <resource name="CLICK_DELETE"> Scrios </resource>
+  <resource name="CLICK_CLOSE"> Dún </resource>
+  <resource name="CLICK_OPENPHOTO"> Oscailte </resource>
+  <resource name="CLICK_OPENCATEGORY"> Oscailte </resource>
+  <resource name="CLICK_SHOWEDITOR"> Riarachán Consól </resource>
+  <resource name="CLICK_SHOWSLIDER"> Taispeáin Barra Sleamhnáin </resource>
+  <resource name="CLICK_UPLOADFILES"> Uaslódáil comhad </resource>
+  <resource name="CLICK_NEWCATEGORY"> Catagóir Nua </resource>
+  <resource name="CLICK_ADDCOMMENT"> Add Comment </resource>
+  <resource name="CLICK_DELETECOMMENT"> Scrios Comment </resource>
+  <resource name="PROMPT_TYPECATEGORYNAME"> Tabhair ainm chatagóir ionchur </resource>
+  <resource name="PROMPT_TYPEPHOTONAME"> Tabhair teideal grianghraf ionchur </resource>
+  <resource name="PROMPT_TYPECOMMENT"> Déan nóta nua ionchur </resource>
+  <resource name="CONFIRM_CLICK_DELETEPHOTO"> An bhfuil tú cinnte gur mian leat grianghraf a scriosadh '(0)'? </resource>
+  <resource name="CONFIRM_CLICK_DELETECATEGORY"> An bhfuil tú cinnte gur mian leat catagóir a scriosadh '(0)' agus a bhfuil gach comhad a? </resource>
+  <resource name="CONFIRM_CLICK_DELETECOMMENT"> tú cinnte gur mian leat a scriosadh comment '(0)'?</resource>
+</resources>

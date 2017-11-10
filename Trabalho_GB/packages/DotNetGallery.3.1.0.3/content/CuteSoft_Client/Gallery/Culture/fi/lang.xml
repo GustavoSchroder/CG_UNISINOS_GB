@@ -1,0 +1,25 @@
+<!-- fi : FINNISH -->
+<resources>
+  <resource name="LANGUAGE">FINNISH</resource>
+  <resource name="LOCATION"> Sijainti </resource>
+  <resource name="NUMCOMMENTS"> Kommentit </resource>
+  <resource name="DEFAULTCATEGORYNAME"> (Default) </resource>
+  <resource name="DEFAULTSENDERNAME"> (vierailija) </resource>
+  <resource name="CLICK_EDIT"> Muokkaa </resource>
+  <resource name="CLICK_DELETE"> Poista </resource>
+  <resource name="CLICK_CLOSE"> Sulje </resource>
+  <resource name="CLICK_OPENPHOTO"> Open </resource>
+  <resource name="CLICK_OPENCATEGORY"> Open </resource>
+  <resource name="CLICK_SHOWEDITOR"> hallintakonsolin </resource>
+  <resource name="CLICK_SHOWSLIDER"> Näytä Slider </resource>
+  <resource name="CLICK_UPLOADFILES"> Lataa tiedostot </resource>
+  <resource name="CLICK_NEWCATEGORY"> Uusi Luokka </resource>
+  <resource name="CLICK_ADDCOMMENT"> Lisää kommentti </resource>
+  <resource name="CLICK_DELETECOMMENT"> Poista kommentti </resource>
+  <resource name="PROMPT_TYPECATEGORYNAME"> Please input luokan nimi </resource>
+  <resource name="PROMPT_TYPEPHOTONAME"> Please input Valokuvan otsikon </resource>
+  <resource name="PROMPT_TYPECOMMENT"> Please input uusi kommentti </resource>
+  <resource name="CONFIRM_CLICK_DELETEPHOTO"> Oletko varma että haluat poistaa valokuvan "(0) '? </resource>
+  <resource name="CONFIRM_CLICK_DELETECATEGORY"> Oletko varma että haluat poistaa luokan" (0)' ja kaikki sen tiedostot? </resource>
+  <resource name="CONFIRM_CLICK_DELETECOMMENT"> Oletko varma, että haluat Poista kommentti "(0) '?</resource>
+</resources>

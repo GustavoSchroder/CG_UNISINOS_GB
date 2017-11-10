@@ -1,0 +1,25 @@
+<!-- da : DANISH -->
+<resources>
+  <resource name="LANGUAGE">DANISH</resource>
+  <resource name="LOCATION"> Beliggenhed </resource>
+  <resource name="NUMCOMMENTS"> Kommentarer </resource>
+  <resource name="DEFAULTCATEGORYNAME"> (Default) </resource>
+  <resource name="DEFAULTSENDERNAME"> (Guest) </resource>
+  <resource name="CLICK_EDIT"> Rediger </resource>
+  <resource name="CLICK_DELETE"> Slet </resource>
+  <resource name="CLICK_CLOSE"> Luk </resource>
+  <resource name="CLICK_OPENPHOTO"> Open </resource>
+  <resource name="CLICK_OPENCATEGORY"> Open </resource>
+  <resource name="CLICK_SHOWEDITOR"> administrationskonsollen </resource>
+  <resource name="CLICK_SHOWSLIDER"> Vis Slider </resource>
+  <resource name="CLICK_UPLOADFILES"> Upload filer </resource>
+  <resource name="CLICK_NEWCATEGORY"> Ny Kategori </resource>
+  <resource name="CLICK_ADDCOMMENT"> Tilføj kommentar </resource>
+  <resource name="CLICK_DELETECOMMENT"> Slet kommentar </resource>
+  <resource name="PROMPT_TYPECATEGORYNAME"> Please input kategori navn </resource>
+  <resource name="PROMPT_TYPEPHOTONAME"> Please input billedtitel </resource>
+  <resource name="PROMPT_TYPECOMMENT"> Please input ny kommentar </resource>
+  <resource name="CONFIRM_CLICK_DELETEPHOTO"> Er du sikker på du vil slette billedet '(0)'? </resource>
+  <resource name="CONFIRM_CLICK_DELETECATEGORY"> Er du sikker på du vil slette kategorien '(0)' og alle dens filer? </resource>
+  <resource name="CONFIRM_CLICK_DELETECOMMENT"> Er du sikker på du vil Slet kommentar '(0)'?</resource>
+</resources>

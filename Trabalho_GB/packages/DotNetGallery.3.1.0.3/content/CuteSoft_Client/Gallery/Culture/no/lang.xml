@@ -1,0 +1,25 @@
+<!-- no : NORWEGIAN -->
+<resources>
+  <resource name="LANGUAGE">NORWEGIAN</resource>
+  <resource name="LOCATION"> Beliggenhet </resource>
+  <resource name="NUMCOMMENTS"> Kommentarer </resource>
+  <resource name="DEFAULTCATEGORYNAME"> (Standard) </resource>
+  <resource name="DEFAULTSENDERNAME"> (Gjest) </resource>
+  <resource name="CLICK_EDIT"> Rediger </resource>
+  <resource name="CLICK_DELETE"> Slett </resource>
+  <resource name="CLICK_CLOSE"> Lukk </resource>
+  <resource name="CLICK_OPENPHOTO"> Åpne </resource>
+  <resource name="CLICK_OPENCATEGORY"> Åpne </resource>
+  <resource name="CLICK_SHOWEDITOR"> administrasjonskonsollen </resource>
+  <resource name="CLICK_SHOWSLIDER"> Vis Slider </resource>
+  <resource name="CLICK_UPLOADFILES"> Last opp filer </resource>
+  <resource name="CLICK_NEWCATEGORY"> Ny kategori </resource>
+  <resource name="CLICK_ADDCOMMENT"> Legg til kommentar </resource>
+  <resource name="CLICK_DELETECOMMENT"> Slett kommentar </resource>
+  <resource name="PROMPT_TYPECATEGORYNAME"> Please input kategorinavnet </resource>
+  <resource name="PROMPT_TYPEPHOTONAME"> Please input bilde tittel </resource>
+  <resource name="PROMPT_TYPECOMMENT"> legg inn ny kommentar </resource>
+  <resource name="CONFIRM_CLICK_DELETEPHOTO"> Er du sikker på at du vil slette bildet "(0) '? </resource>
+  <resource name="CONFIRM_CLICK_DELETECATEGORY"> Er du sikker på at du vil slette kategorien' (0) 'og alle dens filer? </resource>
+  <resource name="CONFIRM_CLICK_DELETECOMMENT"> Er du sikker på at du vil Slett kommentar '(0)'?</resource>
+</resources>

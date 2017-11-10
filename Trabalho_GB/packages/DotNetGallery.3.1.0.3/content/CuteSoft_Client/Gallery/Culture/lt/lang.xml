@@ -1,0 +1,25 @@
+<!-- lt : LITHUANIAN -->
+<resources>
+  <resource name="LANGUAGE">LITHUANIAN</resource>
+  <resource name="LOCATION"> Vieta </resource>
+  <resource name="NUMCOMMENTS"> Komentarai </resource>
+  <resource name="DEFAULTCATEGORYNAME"> (pagal nutylėjimą) </resource>
+  <resource name="DEFAULTSENDERNAME"> (Svečias) </resource>
+  <resource name="CLICK_EDIT"> Redaguoti </resource>
+  <resource name="CLICK_DELETE"> Panaikinti </resource>
+  <resource name="CLICK_CLOSE"> Close </resource>
+  <resource name="CLICK_OPENPHOTO"> Open </resource>
+  <resource name="CLICK_OPENCATEGORY"> Open </resource>
+  <resource name="CLICK_SHOWEDITOR"> Administratorius konsolės </resource>
+  <resource name="CLICK_SHOWSLIDER"> Rodyti Slider </resource>
+  <resource name="CLICK_UPLOADFILES"> Įkelti failai </resource>
+  <resource name="CLICK_NEWCATEGORY"> Nauja kategorija </resource>
+  <resource name="CLICK_ADDCOMMENT"> Rašyti komentarą </resource>
+  <resource name="CLICK_DELETECOMMENT"> Ištrinti komentarą </resource>
+  <resource name="PROMPT_TYPECATEGORYNAME"> Įveskite kategorijos pavadinimą </resource>
+  <resource name="PROMPT_TYPEPHOTONAME"> Įveskite nuotrauką pavadinimas </resource>
+  <resource name="PROMPT_TYPECOMMENT"> Prašome įvesti naują komentarą </resource>
+  <resource name="CONFIRM_CLICK_DELETEPHOTO"> Ar tikrai norite ištrinti nuotrauką "(0)"? </resource>
+  <resource name="CONFIRM_CLICK_DELETECATEGORY"> Ar tikrai norite ištrinti kategoriją "(0)", ir visus savo failus? </resource>
+  <resource name="CONFIRM_CLICK_DELETECOMMENT"> Ar tikrai norite Ištrinti komentarą '(0) "?</resource>
+</resources>

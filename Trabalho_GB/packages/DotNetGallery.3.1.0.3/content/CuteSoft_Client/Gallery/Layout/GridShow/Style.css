@@ -1,0 +1,15 @@
+.GalleryPhotoItem
+{
+	float:left;
+	width:64px;
+	height:48px;
+	margin:4px;
+}
+
+.GalleryItemSelected
+{
+	background-repeat:no-repeat;
+}
+
+
+

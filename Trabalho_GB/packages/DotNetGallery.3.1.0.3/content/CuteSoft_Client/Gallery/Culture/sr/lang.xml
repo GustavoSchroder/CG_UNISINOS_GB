@@ -1,0 +1,25 @@
+<!-- sr : SERBIAN -->
+<resources>
+  <resource name="LANGUAGE">SERBIAN</resource>
+  <resource name="LOCATION"> Локација </resource>
+  <resource name="NUMCOMMENTS"> Коментари </resource>
+  <resource name="DEFAULTCATEGORYNAME"> (Подразумевано) </resource>
+  <resource name="DEFAULTSENDERNAME"> (Гост) </resource>
+  <resource name="CLICK_EDIT"> едит </resource>
+  <resource name="CLICK_DELETE"> делете </resource>
+  <resource name="CLICK_CLOSE"> Затвори </resource>
+  <resource name="CLICK_OPENPHOTO"> Отвори </resource>
+  <resource name="CLICK_OPENCATEGORY"> Отвори </resource>
+  <resource name="CLICK_SHOWEDITOR"> администраторске конзоле </resource>
+  <resource name="CLICK_SHOWSLIDER"> Прикажи Клизач </resource>
+  <resource name="CLICK_UPLOADFILES"> Отпреми датотеке </resource>
+  <resource name="CLICK_NEWCATEGORY"> Нови Категорија </resource>
+  <resource name="CLICK_ADDCOMMENT"> Додај коментар </resource>
+  <resource name="CLICK_DELETECOMMENT"> Брисање коментара </resource>
+  <resource name="PROMPT_TYPECATEGORYNAME"> Молимо унесите име категорије </resource>
+  <resource name="PROMPT_TYPEPHOTONAME"> Молимо унесите наслов фотографије </resource>
+  <resource name="PROMPT_TYPECOMMENT"> Молимо унесите нови коментар </resource>
+  <resource name="CONFIRM_CLICK_DELETEPHOTO"> Да ли сте сигурни да желите да обришете слику "(0) '</resource>
+  <resource name="CONFIRM_CLICK_DELETECATEGORY">? Да ли сте сигурни да желите да избришете категорију' (0) 'и свих њених фајлова </resource>
+  <resource name="CONFIRM_CLICK_DELETECOMMENT">? Јесте ли сигурни да желите да Брисање коментара '(0)'?</resource>
+</resources>

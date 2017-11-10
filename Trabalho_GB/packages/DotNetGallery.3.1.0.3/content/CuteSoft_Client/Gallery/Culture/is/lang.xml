@@ -1,0 +1,25 @@
+<!-- is : ICELANDIC -->
+<resources>
+  <resource name="LANGUAGE">ICELANDIC</resource>
+  <resource name="LOCATION"> Staðsetning </resource>
+  <resource name="NUMCOMMENTS"> Athugasemd </resource>
+  <resource name="DEFAULTCATEGORYNAME"> (Sjálfgefið) </resource>
+  <resource name="DEFAULTSENDERNAME"> (Guest) </resource>
+  <resource name="CLICK_EDIT"> Breyta </resource>
+  <resource name="CLICK_DELETE"> Eyða </resource>
+  <resource name="CLICK_CLOSE"> Close </resource>
+  <resource name="CLICK_OPENPHOTO"> Open </resource>
+  <resource name="CLICK_OPENCATEGORY"> Open </resource>
+  <resource name="CLICK_SHOWEDITOR"> Admin Console </resource>
+  <resource name="CLICK_SHOWSLIDER"> Sýna Renna </resource>
+  <resource name="CLICK_UPLOADFILES"> Hlaða inn skrá </resource>
+  <resource name="CLICK_NEWCATEGORY"> New Flokkur </resource>
+  <resource name="CLICK_ADDCOMMENT"> Add Comment </resource>
+  <resource name="CLICK_DELETECOMMENT"> Delete Comment </resource>
+  <resource name="PROMPT_TYPECATEGORYNAME"> Vinsamlega inntak flokkur nafn </resource>
+  <resource name="PROMPT_TYPEPHOTONAME"> Vinsamlegast photo inntak titli </resource>
+  <resource name="PROMPT_TYPECOMMENT"> Hafðu inntak new comment </resource>
+  <resource name="CONFIRM_CLICK_DELETEPHOTO"> Ertu viss um að þú viljir eyða mynd "(0) '</resource>
+  <resource name="CONFIRM_CLICK_DELETECATEGORY"> Ertu viss um að þú viljir eyða flokknum" (0)'-og allar skrár þess? </resource>
+  <resource name="CONFIRM_CLICK_DELETECOMMENT"> Ertu viss um að þú viljir Eyða athugasemd '(0)'?</resource>
+</resources>

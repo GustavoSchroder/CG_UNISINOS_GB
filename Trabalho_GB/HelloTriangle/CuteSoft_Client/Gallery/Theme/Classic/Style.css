@@ -1,0 +1,155 @@
+/*This style file define the Well-Known classes*/
+
+
+.Viewer
+{
+	overflow:hidden;
+	margin:0px;
+	padding:0px;
+}
+.Slider
+{
+	background-color:black;
+	color:white;
+	overflow:hidden;
+	margin:0px;
+	padding:0px;
+}
+
+
+.GalleryLayout
+{
+	
+}
+
+.GalleryTooltip
+{
+	font-size:12px;
+}
+
+
+.GalleryDirectoryItem:hover , .GalleryPhotoItem:hover
+{
+	color:orange;
+}
+
+.GalleryDirectoryItem:hover .GalleryThumbnailContainer, .GalleryPhotoItem:hover .GalleryThumbnailContainer
+{
+	background-color:#999999;
+}
+.GalleryDirectoryItem:hover .GalleryPhotoContainer, .GalleryPhotoItem:hover .GalleryPhotoContainer
+{
+	background-color:#999999;
+}
+
+
+
+/*classes defined in Theme/Code.js*/
+
+.GalleryThumbnailImage
+{
+	margin:4px;
+}
+
+.GalleryThumbnailContainer
+{
+	display:inline-block;
+	background-color:#cccccc;
+}
+.GalleryThumbnailContainer:hover
+{
+	background-color:#999999;
+}
+
+.GalleryPhotoImage
+{
+	margin:4px;
+}
+.GalleryPhotoContainer
+{
+	display:inline-block;
+	background-color:#cccccc;
+}
+.GalleryPhotoContainer:hover
+{
+	background-color:#999999;
+}
+
+
+.GalleryTooltipContainer
+{
+	rem-border-top:solid 1px #999999;
+	rem-border-left:solid 1px #777777;
+	rem-border-right:solid 1px #dddddd;
+	rem-border-bottom:solid 1px #bbbbbb;
+	border:solid 4px #cccccc;
+	padding:6px;
+	background-color:#fffeee;
+	margin:2px;
+	height:100%;
+}
+.GalleryTooltipContainer:hover
+{
+	border:solid 4px #999999;
+}
+
+
+.SlideShowPrevBtn
+{
+	cursor:pointer;
+	position:absolute;
+	background-color:White;
+	width:64px;
+	height:24px;
+	top:120px;
+	left:12px;
+	background-image:url(Images/prev.png);
+	border-bottom:solid 2px #333333;
+	border-left-style:none;
+}
+
+.SlideShowNextBtn
+{
+	cursor:pointer;
+	position:absolute;
+	background-color:White;
+	width:64px;
+	height:24px;
+	top:120px;
+	right:12px;
+	background-image:url(Images/next.png);
+	border-bottom:solid 2px #333333;
+	border-right-style:none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

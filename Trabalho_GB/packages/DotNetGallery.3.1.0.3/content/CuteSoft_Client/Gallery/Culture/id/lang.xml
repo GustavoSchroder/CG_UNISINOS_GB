@@ -1,0 +1,25 @@
+<!-- id : INDONESIAN -->
+<resources>
+  <resource name="LANGUAGE">INDONESIAN</resource>
+  <resource name="LOCATION"> Lokasi </resource>
+  <resource name="NUMCOMMENTS"> Komentar </resource>
+  <resource name="DEFAULTCATEGORYNAME"> (Default) </resource>
+  <resource name="DEFAULTSENDERNAME"> (Guest) </resource>
+  <resource name="CLICK_EDIT"> Edit </resource>
+  <resource name="CLICK_DELETE"> Hapus </resource>
+  <resource name="CLICK_CLOSE"> Close </resource>
+  <resource name="CLICK_OPENPHOTO"> Open </resource>
+  <resource name="CLICK_OPENCATEGORY"> Open </resource>
+  <resource name="CLICK_SHOWEDITOR"> Admin Konsol </resource>
+  <resource name="CLICK_SHOWSLIDER"> Tampilkan Slider </resource>
+  <resource name="CLICK_UPLOADFILES"> Upload file </resource>
+  <resource name="CLICK_NEWCATEGORY"> Kategori Baru </resource>
+  <resource name="CLICK_ADDCOMMENT"> Add Comment </resource>
+  <resource name="CLICK_DELETECOMMENT"> Delete Comment </resource>
+  <resource name="PROMPT_TYPECATEGORYNAME"> Silakan masukkan nama kategori </resource>
+  <resource name="PROMPT_TYPEPHOTONAME"> Silakan masukkan judul foto </resource>
+  <resource name="PROMPT_TYPECOMMENT"> Silakan masukan komentar baru </resource>
+  <resource name="CONFIRM_CLICK_DELETEPHOTO"> Apakah Anda yakin ingin menghapus foto '(0)'? </resource>
+  <resource name="CONFIRM_CLICK_DELETECATEGORY"> Apakah Anda yakin ingin menghapus kategori '(0)' dan semua file? </resource>
+  <resource name="CONFIRM_CLICK_DELETECOMMENT"> Apakah Anda yakin ingin menghapus komentar '(0)'?</resource>
+</resources>

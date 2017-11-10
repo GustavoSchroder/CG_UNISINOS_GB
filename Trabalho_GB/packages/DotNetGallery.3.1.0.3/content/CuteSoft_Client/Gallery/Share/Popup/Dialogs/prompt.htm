@@ -1,0 +1,51 @@
+<div style='text-align:center;padding:12px;color:black;font-wize:14pt;'>
+	<span id="dng_msg"></span>
+</div>
+<div style='text-align:center;padding:12px;'>
+	<input type="text" id="dng_value" style="width:240px" />
+</div>
+<div style='text-align:center'>
+	<button id="dng_accept" style='margin:4px;width:80px'>OK</button>
+	<button id="dng_cancel" style='margin:4px;width:80px'>Cancel</button>
+</div>
+<script>
+
+//check GalleryPopup.prototype.Prompt
+dng_msg.appendChild(document.createTextNode(Param.arg_message));
+
+var browser=Browser;
+
+var _closed=false;
+function doreturn(res)
+{
+	if(_closed)return;
+	_closed=true;
+	closedialog();
+	Param.arg_callback(res);
+}
+dng_accept.onclick=function()
+{
+	doreturn(dng_value.value);
+}
+dng_cancel.onclick=function()
+{
+	doreturn();
+}
+
+function onclose()
+{
+	doreturn();
+}
+
+dng_value.onkeydown=function(event)
+{
+	event=window.event||event;
+	if(event.keyCode==13)
+	{
+		doreturn(dng_value.value);
+	}
+}
+
+dng_value.focus();
+
+</script>

@@ -1,0 +1,25 @@
+<!-- th : THAI -->
+<resources>
+  <resource name="LANGUAGE">THAI</resource>
+  <resource name="LOCATION"> สถานที่ </resource>
+  <resource name="NUMCOMMENTS"> ความเห็น </resource>
+  <resource name="DEFAULTCATEGORYNAME"> (Default) </resource>
+  <resource name="DEFAULTSENDERNAME"> (Guest) </resource>
+  <resource name="CLICK_EDIT"> แก้ไข </resource>
+  <resource name="CLICK_DELETE"> ลบ </resource>
+  <resource name="CLICK_CLOSE"> ปิด </resource>
+  <resource name="CLICK_OPENPHOTO"> Open </resource>
+  <resource name="CLICK_OPENCATEGORY"> Open </resource>
+  <resource name="CLICK_SHOWEDITOR"> Admin Console </resource>
+  <resource name="CLICK_SHOWSLIDER"> แสดงเลื่อน </resource>
+  <resource name="CLICK_UPLOADFILES"> ไฟล์อัพโหลด </resource>
+  <resource name="CLICK_NEWCATEGORY"> New Category </resource>
+  <resource name="CLICK_ADDCOMMENT"> เพิ่มข้อคิดเห็น </resource>
+  <resource name="CLICK_DELETECOMMENT"> ลบความคิดเห็น </resource>
+  <resource name="PROMPT_TYPECATEGORYNAME"> กรุณาใส่ชื่อประเภท </resource>
+  <resource name="PROMPT_TYPEPHOTONAME"> กรุณาใส่ชื่อภาพ </resource>
+  <resource name="PROMPT_TYPECOMMENT"> กรุณาใส่ความคิดเห็นใหม่ </resource>
+  <resource name="CONFIRM_CLICK_DELETEPHOTO"> คุณแน่ใจหรือว่าต้องการลบภาพ '(0)'? </resource>
+  <resource name="CONFIRM_CLICK_DELETECATEGORY"> คุณแน่ใจหรือว่าต้องการลบประเภท '(0)' และไฟล์? </resource>
+  <resource name="CONFIRM_CLICK_DELETECOMMENT"> ของคุณแน่ใจหรือว่าต้องการลบความคิดเห็น '(0)'?</resource>
+</resources>

@@ -1,0 +1,26 @@
+<!-- hi : HINDI -->
+<resources>
+  <resource name="LANGUAGE">HINDI</resource>
+  <resource name="LOCATION"> स्थान </resource>
+  <resource name="NUMCOMMENTS">
+  </resource>
+  <resource name="DEFAULTCATEGORYNAME"> टिप्पणियाँ (डिफ़ॉल्ट) </resource>
+  <resource name="DEFAULTSENDERNAME"> (अतिथि) </resource>
+  <resource name="CLICK_EDIT"> संपादित करें </resource>
+  <resource name="CLICK_DELETE"> हटाएँ </resource>
+  <resource name="CLICK_CLOSE"> बंद करो </resource>
+  <resource name="CLICK_OPENPHOTO"> खुला </resource>
+  <resource name="CLICK_OPENCATEGORY"> खोलें </resource>
+  <resource name="CLICK_SHOWEDITOR"> व्यवस्थापक कंसोल </resource>
+  <resource name="CLICK_SHOWSLIDER"> दिखाएँ स्लाइडर </resource>
+  <resource name="CLICK_UPLOADFILES"> फ़ाइलें अपलोड करें </resource>
+  <resource name="CLICK_NEWCATEGORY"> नई श्रेणी </resource>
+  <resource name="CLICK_ADDCOMMENT"> टिप्पणी जोड़ें </resource>
+  <resource name="CLICK_DELETECOMMENT"> हटाएँ टिप्पणी </resource>
+  <resource name="PROMPT_TYPECATEGORYNAME"> कृपया इनपुट श्रेणी नाम </resource>
+  <resource name="PROMPT_TYPEPHOTONAME"> कृपया इनपुट फोटो शीर्षक </resource>
+  <resource name="PROMPT_TYPECOMMENT"> इनपुट कृपया नई टिप्पणी </resource>
+  <resource name="CONFIRM_CLICK_DELETEPHOTO"> क्या आप सुनिश्चित हैं कि आप फोटो को हटाना '(0)?' </resource>
+  <resource name="CONFIRM_CLICK_DELETECATEGORY"> आप सुनिश्चित हैं कि आप श्रेणी हटाना 'चाहते क्या चाहते (0)' और उसके सभी? फ़ाइलें </resource>
+  <resource name="CONFIRM_CLICK_DELETECOMMENT"> क्या आप सुनिश्चित हैं कि आप चाहते हैं टिप्पणी हटाएँ '(0)'?</resource>
+</resources>

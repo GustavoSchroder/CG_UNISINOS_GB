@@ -1,0 +1,26 @@
+<!-- ja : JAPANESE -->
+<resources>
+  <resource name="LANGUAGE">JAPANESE</resource>
+  <resource name="LOCATION">ロケーション</resource>
+  <resource name="NUMCOMMENTS">コメント</resource>
+  <resource name="DEFAULTCATEGORYNAME">（デフォルト）</resource>
+  <resource name="DEFAULTSENDERNAME">（ゲスト）</resource>
+  <resource name="CLICK_EDIT">編集</resource>
+  <resource name="CLICK_DELETE">削除</resource>
+  <resource name="CLICK_CLOSE">閉じる</resource>
+  <resource name="CLICK_OPENPHOTO"> [開く] </resource>
+  <resource name="CLICK_OPENCATEGORY"> [開く] </resource>
+  <resource name="CLICK_SHOWEDITOR"> Admin Consoleに</resource>
+  <resource name="CLICK_SHOWSLIDER">近くのスライダー</resource>
+  <resource name="CLICK_UPLOADFILES">アップロードファイル</resource>
+  <resource name="CLICK_NEWCATEGORY">新規カテゴリ] </resource>
+  <resource name="CLICK_ADDCOMMENT">
+  </resource>
+  <resource name="CLICK_DELETECOMMENT"> [削除]コメント</resource>
+  <resource name="PROMPT_TYPECATEGORYNAME">入力してくださいカテゴリ名</resource>
+  <resource name="PROMPT_TYPEPHOTONAME">コメントを追加入力してください写真のタイトル</resource>
+  <resource name="PROMPT_TYPECOMMENT">入力新しいコメントしてください</resource>
+  <resource name="CONFIRM_CLICK_DELETEPHOTO">あなたが'(0)'？</resource>
+  <resource name="CONFIRM_CLICK_DELETECATEGORY">あなたが'カテゴリを削除してもよろしいですか写真を削除してもよろしいですか(0)'とそのすべてのファイルですか？</resource>
+  <resource name="CONFIRM_CLICK_DELETECOMMENT">あなたがしてもよろしいですか'コメントを削除(0)'？</resource>
+</resources>

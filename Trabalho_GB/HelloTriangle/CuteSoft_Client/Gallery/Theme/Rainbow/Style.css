@@ -1,0 +1,122 @@
+/*This style file define the Well-Known classes*/
+
+
+.Viewer
+{
+	overflow:hidden;
+	margin:0px;
+	padding:0px;
+}
+.Slider
+{
+	background-color:black;
+	color:white;
+	overflow:hidden;
+	margin:0px;
+	padding:0px;
+}
+
+
+.GalleryLayout
+{
+	
+}
+
+.GalleryTooltip
+{
+	font-size:12px;
+	background-color:#fffeee;
+}
+
+/*classes defined in Theme/Code.js*/
+
+.GalleryItemHover .GalleryPhotoContainer,.GalleryItemHover .GalleryThumbnailContainer
+{
+	background-image:url(Images/rainbow.gif);
+}
+
+.GalleryItemSelected .GalleryPhotoContainer,.GalleryItemSelected .GalleryThumbnailContainer
+{
+	background-image:url(Images/rainbow.gif);
+}
+.GalleryItemHoverSelected .GalleryPhotoContainer,.GalleryItemHoverSelected .GalleryThumbnailContainer
+{
+	background-image:url(Images/rainbow.gif);
+}
+
+.GalleryPhotoContainer:hover,.GalleryThumbnailContainer:hover
+{
+	background-image:url(Images/rainbow.gif);
+}
+
+.GalleryPhotoContainer,.GalleryThumbnailContainer
+{
+	background-image:url(Images/rainbow.png);
+	display:inline-block;
+}
+
+
+.GalleryPhotoImage,.GalleryThumbnailImage
+{
+	margin:2px;
+}
+
+.GalleryTooltipContainer1
+{
+	height:100%;
+	background-image:url(Images/rainbow.png);
+	padding:2px;
+	border:outset 1px white;
+}
+.GalleryTooltipContainer2
+{
+	height:100%;
+	padding-left:6px;
+	padding-top:6px;
+	padding-right:6px;
+	padding-bottom:6px;
+	background-color:white;
+	border:solid 1px gold;
+}
+
+
+.GalleryTooltipContainer1:hover
+{
+	background-image:url(Images/rainbow.gif);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,333 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<title></title>
+		<style>
+		#container
+		{
+			position:absolute;overflow:hidden;text-align:center;
+		}
+		#toolbar
+		{
+			position:absolute;
+			height:24px;
+			text-align:center;
+			width:480px;
+			z-index:55555;
+		}
+		.imgbtn
+		{
+			margin-left:3px;
+			margin-right:3px;
+			cursor:pointer;
+			padding:5px;
+		}
+		.imgbtn:hover
+		{
+			background-color:gold;
+		}
+		</style>
+		<script type='text/javascript'>
+		var theme=parent.document.body.getAttribute("theme");
+		document.write("<link rel='stylesheet' href='../../Theme/"+theme+"/Style.css' />");
+		</script>
+	</head>
+	<body class='Viewer'>
+		<div id="container">
+			<img id="img1">
+		</div>
+		<div id='toolbar'>
+			<img id='btn1' class='imgbtn' onclick="DoZoomIn()" title='Zoom In' />
+			<img id='btn2' class='imgbtn' onclick="DoZoomOut()" title='Zoom Out' />
+			<img id='btn3' class='imgbtn' onclick="DoFitWindow()" title='Fit Window' />
+			<img id='btn4' class='imgbtn' onclick="DoOriginal()" title='Original' />
+		</div>
+	</body>
+	<script type='text/javascript'>
+	
+	var frame=parent.document.getElementsByTagName("IFrame").item(0);
+	
+	function FixFrameSize()
+	{
+		var cw=Math.max(parent.document.body.clientWidth,parent.document.documentElement.clientWidth);
+		var ch=Math.max(parent.document.body.clientHeight,parent.document.documentElement.clientHeight);
+		
+		frame.style.width=cw+"px";
+		frame.style.height=ch+"px";
+	}
+	parent.onresize=FixFrameSize;
+	FixFrameSize();
+	
+	function SetImgSrc(id,file)
+	{
+		document.getElementById(id).src="../../Theme/"+theme+"/Images/standard-viewer-"+file+".png";
+	}
+	SetImgSrc("btn1","zoomin");
+	SetImgSrc("btn2","zoomout");
+	SetImgSrc("btn3","fitwin");
+	SetImgSrc("btn4","origin");
+	
+	
+	function GetPhotoProperty(name)
+	{
+		return parent.document.body.getAttribute("photo"+name);
+	}
+	
+	parent.document.body.style.padding="0px";
+	parent.document.body.style.margin="0px";
+	parent.document.body.style.overflow="hidden";
+	parent.document.documentElement.style.overflow="hidden";
+	
+	var container=document.getElementById("container");
+	
+	var toolbar=document.getElementById("toolbar");
+	
+	var img=document.getElementById("img1");
+	img.src=GetPhotoProperty("Url");
+	
+	var pw=parseInt(GetPhotoProperty("Width"));
+	var ph=parseInt(GetPhotoProperty("Height"));
+	
+
+	
+	var minsize=100;
+	var maxscale=5;
+	var edgesize=12;
+	var bottomedgeplus=36;
+	var currentscale=1;
+	var movex=false;
+	var movey=false;
+	
+	function GetDisplaySize()
+	{
+		var cw=window.document.body.clientWidth;
+		var ch=window.document.body.clientHeight;
+		if(window.document.compatMode=="CSS1Compat")
+		{
+			cw=window.document.documentElement.clientWidth;
+			ch=window.document.documentElement.clientHeight;
+		}
+		
+		cw=cw-edgesize*2;
+		ch=ch-edgesize*2;
+		
+		ch=ch-bottomedgeplus;
+		
+		return {width:cw,height:ch}
+	}
+	
+	function AdjustToolbar()
+	{
+		var cw=window.document.body.clientWidth;
+		var ch=window.document.body.clientHeight;
+		if(window.document.compatMode=="CSS1Compat")
+		{
+			cw=window.document.documentElement.clientWidth;
+			ch=window.document.documentElement.clientHeight;
+		}
+
+		toolbar.style.bottom=edgesize+"px";
+		var left=Math.max(0,Math.floor(cw/2-toolbar.offsetWidth/2));
+		toolbar.style.left=left+"px";
+	}
+	
+	function ApplyScale()
+	{
+		if(currentscale>maxscale)
+			currentscale=maxscale;
+
+		var st=container.scrollTop;
+		var sl=container.scrollLeft;
+		var sx=movex?container.scrollWidth-container.clientWidth:0;
+		var sy=movey?container.scrollHeight-container.clientHeight:0;
+		
+		var size=GetDisplaySize();
+		
+		var w=Math.floor(pw*currentscale)
+		var h=Math.floor(ph*currentscale);
+		
+		img.style.width=w+"px";
+		img.style.height=h+"px";
+		
+		if(size.width>=w)
+		{
+			movex=false;
+			container.style.left=Math.floor(size.width/2-w/2)+edgesize+"px";
+			container.style.width="";
+			//container.style.width=Math.min(w,size.width)+"px";
+		}
+		else
+		{
+			movex=true;
+			container.style.left=edgesize+"px";
+			container.style.width=size.width+"px";
+			container.scrollLeft=Math.floor((sx?sl/sx:0.5)*(container.scrollWidth-container.clientWidth))
+		}
+		if(size.height>=h)
+		{
+			movey=false;
+			container.style.top=Math.floor(size.height/2-h/2)+edgesize+"px";	
+			container.style.height="";
+			//container.style.height=Math.min(h,size.height)+"px"
+		}
+		else
+		{
+			movey=true;
+			container.style.top=edgesize+"px";
+			container.style.height=size.height+"px";
+			container.scrollTop=Math.floor((sy?st/sy:0.5)*(container.scrollHeight-container.clientHeight))
+		}
+		
+		if(movex||movey)
+		{
+			img.style.cursor="move"
+		}
+		else
+		{
+			img.style.cursor="default"
+		}
+	}
+	
+	
+	
+	function DoZoomIn()
+	{
+		currentscale*=Math.pow(2,0.5);
+		ApplyScale();
+	}
+	function DoZoomOut()
+	{
+		if( Math.min( pw*currentscale , ph*currentscale ) > minsize)
+		{
+			currentscale/=Math.pow(2,0.5);
+		}
+		ApplyScale();
+	}
+	function DoFitWindow()
+	{
+		var size=GetDisplaySize();
+		
+		var scale=Math.min(size.width/pw,size.height/ph);
+		if(scale>1)scale=1;
+		
+		currentscale=scale;
+		ApplyScale();
+	}
+	function DoOriginal()
+	{
+		currentscale=1;
+		ApplyScale();
+	}
+	
+	
+	var _movefactor=1;
+	var _movestart=false;
+	var _moveclientX=0;
+	var _moveclientY=0;
+	var _movescrollX=0;
+	var _movescrollY=0;
+	var _movetargetX=0;
+	var _movetargetY=0;
+	var _moveTimerid=0;
+	var _movetime=0;
+	
+	function ApplyScroll()
+	{
+		var nt=new Date().getTime();
+		if(nt-_movetime<100)
+		{
+			if(!_moveTimerid)_moveTimerid=setTimeout(ApplyScroll,80);
+			return;
+		}
+
+		_movetime=nt;
+		
+		clearTimeout(_moveTimerid);
+		_moveTimerid=0;
+		if(movex)
+		{
+			var x=_movetargetX;
+			if(x<0)x=0;
+			x=Math.min(x,container.scrollWidth-container.clientWidth);
+			container.scrollLeft=x;
+		}
+		if(movey)
+		{
+			var y=_movetargetY;
+			if(y<0)y=0;
+			y=Math.min(y,container.scrollHeight-container.clientHeight);
+			container.scrollTop=y;
+		}
+		
+	}
+	
+	
+	DoFitWindow();
+	AdjustToolbar();
+	
+	img.ondragstart=function(event)
+	{
+		return false;
+	}
+	
+	img.onmousedown=function(event)
+	{
+		event=window.event||event;
+		if(movex||movey)
+		{
+			_moveclientX=event.clientX;
+			_moveclientY=event.clientY;
+			_movescrollX=container.scrollLeft;
+			_movescrollY=container.scrollTop;
+			_movestart=true;
+		}
+		else
+		{
+			_movestart=false;
+		}
+		return false;
+	}
+	document.onmousemove=function(event)
+	{
+		event=window.event||event;
+		if(_movestart)
+		{
+			_movetargetX=_movescrollX+(_moveclientX-event.clientX)*_movefactor;
+			_movetargetY=_movescrollY+(_moveclientY-event.clientY)*_movefactor;
+			ApplyScroll();
+		}
+	}
+	document.onmouseup=function(event)
+	{
+		_movestart=false;
+	}
+	img.oncontextmenu=function(event)
+	{
+		event=window.event||event;
+		event.cancelBubble=true;
+		return true;
+	}
+	document.oncontextmenu=function(event)
+	{
+		return false;
+	}
+	
+	document.onmousewheel=function(event)
+	{
+		event=window.event||event;
+		var scale=currentscale*Math.pow(1.003,event.wheelDelta);
+		if( Math.min( pw*scale , ph*scale ) > minsize)
+		{
+			currentscale=scale;
+			ApplyScale();
+		}
+	}
+	
+	window.onresize=function()
+	{
+		ApplyScale();
+		AdjustToolbar();
+	}
+	
+	</script>
+</html>

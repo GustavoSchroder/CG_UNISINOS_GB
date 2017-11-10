@@ -1,0 +1,28 @@
+<div id='dng_container' class="GalleryLayout" style="background-color:#666666;border:solid 1px #666666;width:100%;height:100%;position:relative;">
+	<div id="dng_photo1" style='position:absolute;top:0px;left:0px;width:100%;text-align:center;background-color:#666666;'>
+	</div>
+	<div id="dng_photo2" style='position:absolute;top:0px;left:0px;width:100%;text-align:center;background-color:#666666;'>
+	</div>
+	<div id="dng_topinfo" style='position:absolute;top:0px;left:0px;width:100%;height:48px;background-color:#666666;display:none'>
+		<div style="text-align:left;height:24px;background-color:#000000">
+			<div id="dng_topinfoindex" style="padding:4px">Name</div>
+		</div>
+		<div style="text-align:left;height:24px;background-color:#333333">
+			<div id="dng_topinfoname" style="padding:4px">Index</div>
+		</div>
+	</div>
+	<table id="dng_toolbar" border="0" cellspacing="0" cellpadding="0" style='position:absolute;left:0px;bottom:0px;width:100%;height:30px;background-color:#333333;'>
+		<tr>
+			<td style='width:60px;text-align:right;vertical-align:middle;'>
+				<img class='BlackSliderButton' id="dng_btn_config" style='width:16px;height:16px' />
+				<img class='BlackSliderButton' id='dng_btn_prev' style='width:16px;height:16px' />
+			</td>
+			<td style='background-color:black;border:solid 3px #333333;' id='dng_tabcontainer'></td>
+			<td style='width:90px;vertical-align:middle;'>
+				<img class='BlackSliderButton' id="dng_btn_next" style='width:16px;height:16px' />
+				<img class='BlackSliderButton' id="dng_btn_play" style='width:16px;height:16px' />
+				<img class="BlackSliderButton" id="dng_btn_slider" style='width:16px;height:16px' onclick="GalleryBrowser.Execute(this,'ShowSlider');return false;" />
+			</td>
+		</tr>
+	</table>
+</div>

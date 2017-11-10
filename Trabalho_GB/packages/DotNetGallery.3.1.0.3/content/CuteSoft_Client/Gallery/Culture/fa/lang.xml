@@ -1,0 +1,25 @@
+<!-- fa : PERSIAN -->
+<resources>
+  <resource name="LANGUAGE">PERSIAN</resource>
+  <resource name="LOCATION"> مکان </resource>
+  <resource name="NUMCOMMENTS"> نظرات </resource>
+  <resource name="DEFAULTCATEGORYNAME"> (پیش فرض) </resource>
+  <resource name="DEFAULTSENDERNAME"> (مهمان) </resource>
+  <resource name="CLICK_EDIT"> ویرایش </resource>
+  <resource name="CLICK_DELETE"> پاک کردن </resource>
+  <resource name="CLICK_CLOSE"> بستن </resource>
+  <resource name="CLICK_OPENPHOTO"> باز کردن </resource>
+  <resource name="CLICK_OPENCATEGORY"> باز کردن </resource>
+  <resource name="CLICK_SHOWEDITOR"> مدیریت کنسول </resource>
+  <resource name="CLICK_SHOWSLIDER"> نشان دادن لغزان </resource>
+  <resource name="CLICK_UPLOADFILES"> آپلود فایل </resource>
+  <resource name="CLICK_NEWCATEGORY"> جدید رده </resource>
+  <resource name="CLICK_ADDCOMMENT"> اضافه کردن بازخورد (نظر شما </resource>
+  <resource name="CLICK_DELETECOMMENT"> حذف بازخورد (نظر شما </resource>
+  <resource name="PROMPT_TYPECATEGORYNAME"> لطفا ورودی نام بخش </resource>
+  <resource name="PROMPT_TYPEPHOTONAME"> لطفا عنوان ورودی عکس </resource>
+  <resource name="PROMPT_TYPECOMMENT"> لطفا نظر ورودی جدید </resource>
+  <resource name="CONFIRM_CLICK_DELETEPHOTO"> آیا مطمئن هستید که می خواهید پاک کنید عکس '(0)'؟ </resource>
+  <resource name="CONFIRM_CLICK_DELETECATEGORY"> آیا مطمئن هستید که می خواهید پاک کنید شاخه '(0)' و همه فایل های خود را؟ </resource>
+  <resource name="CONFIRM_CLICK_DELETECOMMENT"> آیا مطمئن هستید که می خواهید پاک کردن نظر '(0)'؟</resource>
+</resources>

@@ -1,0 +1,25 @@
+<!-- ro : ROMANIAN -->
+<resources>
+  <resource name="LANGUAGE">ROMANIAN</resource>
+  <resource name="LOCATION"> Localizare </resource>
+  <resource name="NUMCOMMENTS"> Comentarii </resource>
+  <resource name="DEFAULTCATEGORYNAME"> (Default) </resource>
+  <resource name="DEFAULTSENDERNAME"> (Guest) </resource>
+  <resource name="CLICK_EDIT"> Editeaza </resource>
+  <resource name="CLICK_DELETE"> Sterge </resource>
+  <resource name="CLICK_CLOSE"> Inchide </resource>
+  <resource name="CLICK_OPENPHOTO"> Open </resource>
+  <resource name="CLICK_OPENCATEGORY"> Open </resource>
+  <resource name="CLICK_SHOWEDITOR"> consola de administrare </resource>
+  <resource name="CLICK_SHOWSLIDER"> Arată Slider </resource>
+  <resource name="CLICK_UPLOADFILES"> Încărcaţi fişiere </resource>
+  <resource name="CLICK_NEWCATEGORY"> New Categorie </resource>
+  <resource name="CLICK_ADDCOMMENT"> Add Comment </resource>
+  <resource name="CLICK_DELETECOMMENT"> Sterge Comment </resource>
+  <resource name="PROMPT_TYPECATEGORYNAME"> Va rugam sa introduceti nume de categorie </resource>
+  <resource name="PROMPT_TYPEPHOTONAME"> Va rugam sa introduceti titlu foto </resource>
+  <resource name="PROMPT_TYPECOMMENT"> Vă rugăm să comentariu de intrare noi </resource>
+  <resource name="CONFIRM_CLICK_DELETEPHOTO"> Sunteţi sigur că doriţi să ştergeţi fotografie "(0) '? </resource>
+  <resource name="CONFIRM_CLICK_DELETECATEGORY"> Sunteţi sigur că doriţi să ştergeţi categoria" (0)' şi toate fişierele sale? </resource>
+  <resource name="CONFIRM_CLICK_DELETECOMMENT"> Sunteţi sigur că doriţi să a şterge comment '(0)'?</resource>
+</resources>

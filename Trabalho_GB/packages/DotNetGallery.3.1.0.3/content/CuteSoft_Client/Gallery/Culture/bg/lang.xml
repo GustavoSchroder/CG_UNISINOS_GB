@@ -1,0 +1,25 @@
+<!-- bg : BULGARIAN -->
+<resources>
+  <resource name="LANGUAGE">BULGARIAN</resource>
+  <resource name="LOCATION"> Местоположение </resource>
+  <resource name="NUMCOMMENTS"> Коментари </resource>
+  <resource name="DEFAULTCATEGORYNAME"> (по подразбиране) </resource>
+  <resource name="DEFAULTSENDERNAME"> (Гост) </resource>
+  <resource name="CLICK_EDIT"> Редактиране </resource>
+  <resource name="CLICK_DELETE"> Изтриване </resource>
+  <resource name="CLICK_CLOSE"> Затвори </resource>
+  <resource name="CLICK_OPENPHOTO"> Отворено </resource>
+  <resource name="CLICK_OPENCATEGORY"> Отворено </resource>
+  <resource name="CLICK_SHOWEDITOR"> административната конзола </resource>
+  <resource name="CLICK_SHOWSLIDER"> Покажи Плъзгам </resource>
+  <resource name="CLICK_UPLOADFILES"> Качи файл </resource>
+  <resource name="CLICK_NEWCATEGORY"> Нова категория </resource>
+  <resource name="CLICK_ADDCOMMENT"> Добави коментар </resource>
+  <resource name="CLICK_DELETECOMMENT"> Изтриване на коментара </resource>
+  <resource name="PROMPT_TYPECATEGORYNAME"> Моля името на категорията вход </resource>
+  <resource name="PROMPT_TYPEPHOTONAME"> Моля заглавие вход снимка </resource>
+  <resource name="PROMPT_TYPECOMMENT"> Моля, въвеждането на нови коментари </resource>
+  <resource name="CONFIRM_CLICK_DELETEPHOTO"> Сигурни ли сте, че искате да изтриете снимка "(0) '? </resource>
+  <resource name="CONFIRM_CLICK_DELETECATEGORY"> Сигурни ли сте, че искате да изтриете категорията" (0)' и всички файлове? </resource>
+  <resource name="CONFIRM_CLICK_DELETECOMMENT"> Наистина ли искате да изтриете коментар "(0) '?</resource>
+</resources>

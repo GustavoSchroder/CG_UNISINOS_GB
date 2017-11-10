@@ -1,0 +1,25 @@
+<!-- nl : DUTCH -->
+<resources>
+  <resource name="LANGUAGE">DUTCH</resource>
+  <resource name="LOCATION"> Locatie </resource>
+  <resource name="NUMCOMMENTS"> Opmerkingen </resource>
+  <resource name="DEFAULTCATEGORYNAME"> (Standaard) </resource>
+  <resource name="DEFAULTSENDERNAME"> (gast) </resource>
+  <resource name="CLICK_EDIT"> Bewerken </resource>
+  <resource name="CLICK_DELETE"> Verwijderen </resource>
+  <resource name="CLICK_CLOSE"> Sluiten </resource>
+  <resource name="CLICK_OPENPHOTO"> Open </resource>
+  <resource name="CLICK_OPENCATEGORY"> Open </resource>
+  <resource name="CLICK_SHOWEDITOR"> Admin Console </resource>
+  <resource name="CLICK_SHOWSLIDER"> Toon Slider </resource>
+  <resource name="CLICK_UPLOADFILES"> Upload bestanden </resource>
+  <resource name="CLICK_NEWCATEGORY"> Nieuwe Categorie </resource>
+  <resource name="CLICK_ADDCOMMENT"> Reactie toevoegen </resource>
+  <resource name="CLICK_DELETECOMMENT"> Reactie verwijderen </resource>
+  <resource name="PROMPT_TYPECATEGORYNAME"> Voer categorie naam </resource>
+  <resource name="PROMPT_TYPEPHOTONAME"> Voer foto titel </resource>
+  <resource name="PROMPT_TYPECOMMENT"> Voer nieuw bericht </resource>
+  <resource name="CONFIRM_CLICK_DELETEPHOTO"> Weet u zeker dat u wilt verwijderen foto '(0)'? </resource>
+  <resource name="CONFIRM_CLICK_DELETECATEGORY"> Weet u zeker dat u wilt verwijderen categorie '(0)' en alle bijbehorende bestanden? </resource>
+  <resource name="CONFIRM_CLICK_DELETECOMMENT"> Weet u zeker dat u wilt delete comment '(0)'?</resource>
+</resources>

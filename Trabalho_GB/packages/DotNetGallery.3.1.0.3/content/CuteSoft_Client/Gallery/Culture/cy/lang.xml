@@ -1,0 +1,25 @@
+<!-- cy : WELSH -->
+<resources>
+  <resource name="LANGUAGE">WELSH</resource>
+  <resource name="LOCATION"> Lleoliad </resource>
+  <resource name="NUMCOMMENTS"> Sylwadau </resource>
+  <resource name="DEFAULTCATEGORYNAME"> (Default) </resource>
+  <resource name="DEFAULTSENDERNAME"> (Guest) </resource>
+  <resource name="CLICK_EDIT"> Golygu </resource>
+  <resource name="CLICK_DELETE"> Dileu </resource>
+  <resource name="CLICK_CLOSE"> Close </resource>
+  <resource name="CLICK_OPENPHOTO"> Agored </resource>
+  <resource name="CLICK_OPENCATEGORY"> Agored </resource>
+  <resource name="CLICK_SHOWEDITOR"> Gweinyddol Consol </resource>
+  <resource name="CLICK_SHOWSLIDER"> Dangos llithrydd </resource>
+  <resource name="CLICK_UPLOADFILES"> Llwytho ffeil </resource>
+  <resource name="CLICK_NEWCATEGORY"> Newydd Categori </resource>
+  <resource name="CLICK_ADDCOMMENT"> Add Comment </resource>
+  <resource name="CLICK_DELETECOMMENT"> Dileu Sylwadau </resource>
+  <resource name="PROMPT_TYPECATEGORYNAME"> Rhowch enw categori mewnbwn </resource>
+  <resource name="PROMPT_TYPEPHOTONAME"> os gwelwch yn dda mewnbwn </resource>
+  <resource name="PROMPT_TYPECOMMENT"> teitl y llun sylwadau os gwelwch yn dda mewnbwn newydd </resource>
+  <resource name="CONFIRM_CLICK_DELETEPHOTO"> A ydych yn sicr eich bod am ddileu llun '(0)'? </resource>
+  <resource name="CONFIRM_CLICK_DELETECATEGORY"> A ydych yn sicr eich bod am ddileu categori '(0)' a'i holl ffeiliau? </resource>
+  <resource name="CONFIRM_CLICK_DELETECOMMENT"> A ydych yn sicr eich bod am dileu sylw '(0)'?</resource>
+</resources>

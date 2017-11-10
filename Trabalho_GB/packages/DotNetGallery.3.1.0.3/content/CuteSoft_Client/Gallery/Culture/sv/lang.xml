@@ -1,0 +1,25 @@
+<!-- sv : SWEDISH -->
+<resources>
+  <resource name="LANGUAGE">SWEDISH</resource>
+  <resource name="LOCATION"> Location </resource>
+  <resource name="NUMCOMMENTS"> Kommentarer </resource>
+  <resource name="DEFAULTCATEGORYNAME"> (standard) </resource>
+  <resource name="DEFAULTSENDERNAME"> (Guest) </resource>
+  <resource name="CLICK_EDIT"> Edit </resource>
+  <resource name="CLICK_DELETE"> Delete </resource>
+  <resource name="CLICK_CLOSE"> Stäng </resource>
+  <resource name="CLICK_OPENPHOTO"> Öppna </resource>
+  <resource name="CLICK_OPENCATEGORY"> Öppna </resource>
+  <resource name="CLICK_SHOWEDITOR"> administratörskonsolen </resource>
+  <resource name="CLICK_SHOWSLIDER"> Visa Slider </resource>
+  <resource name="CLICK_UPLOADFILES"> Ladda upp filer </resource>
+  <resource name="CLICK_NEWCATEGORY"> Ny kategori </resource>
+  <resource name="CLICK_ADDCOMMENT"> Lägg till kommentar </resource>
+  <resource name="CLICK_DELETECOMMENT"> Ta bort kommentar </resource>
+  <resource name="PROMPT_TYPECATEGORYNAME"> Var god mata kategorinamn </resource>
+  <resource name="PROMPT_TYPEPHOTONAME"> Please input foto titel </resource>
+  <resource name="PROMPT_TYPECOMMENT"> Var god mata in ny kommentar </resource>
+  <resource name="CONFIRM_CLICK_DELETEPHOTO"> Är du säker på att du vill ta bort bild "(0) '? </resource>
+  <resource name="CONFIRM_CLICK_DELETECATEGORY"> Är du säker på att du vill ta bort kategorin" (0) "och alla dess filer? </resource>
+  <resource name="CONFIRM_CLICK_DELETECOMMENT"> Är du säker på att du vill Ta bort kommentar '(0)'?</resource>
+</resources>

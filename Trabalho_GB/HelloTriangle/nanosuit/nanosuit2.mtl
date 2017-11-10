@@ -1,0 +1,87 @@
+# Exported from Wings 3D 2.1.5
+newmtl Arm
+Ns 90.0
+d 1.0
+illum 2
+Kd 0.64 0.64 0.64
+Ka 0.0 0.0 0.0
+Ks 0.5 0.5 0.5
+Ke 0.0 0.0 0.0
+map_Bump arm_showroom_ddn.png
+map_Kd arm_dif.png
+
+newmtl Body
+Ns 90.0
+d 1.0
+illum 2
+Kd 0.64 0.64 0.64
+Ka 0.0 0.0 0.0
+Ks 0.5 0.5 0.5
+Ke 0.0 0.0 0.0
+map_Bump body_showroom_ddn.png
+map_Kd body_dif.png
+
+newmtl Glass
+Ns 90.0
+d 1.0
+illum 2
+Kd 0.64 0.64 0.64
+Ka 0.0 0.0 0.0
+Ks 0.5 0.5 0.5
+Ke 0.0 0.0 0.0
+map_Bump glass_ddn.png
+map_Kd glass_dif.png
+
+newmtl Glass2
+Ns 90.0
+d 1.0
+illum 2
+Kd 0.64 0.64 0.64
+Ka 0.0 0.0 0.0
+Ks 0.5 0.5 0.5
+Ke 0.0 0.0 0.0
+map_Bump glass_ddn.png
+map_Kd glass_dif.png
+
+newmtl Hand
+Ns 90.0
+d 1.0
+illum 2
+Kd 0.64 0.64 0.64
+Ka 0.0 0.0 0.0
+Ks 0.5 0.5 0.5
+Ke 0.0 0.0 0.0
+map_Bump hand_showroom_ddn.png
+map_Kd hand_dif.png
+
+newmtl Helmet
+Ns 90.0
+d 1.0
+illum 2
+Kd 0.64 0.64 0.64
+Ka 0.0 0.0 0.0
+Ks 0.5 0.5 0.5
+Ke 0.0 0.0 0.0
+map_Bump helmet_showroom_ddn.png
+map_Kd helmet_diff.png
+
+newmtl Leg
+Ns 90.0
+d 1.0
+illum 2
+Kd 0.64 0.64 0.64
+Ka 0.0 0.0 0.0
+Ks 0.5 0.5 0.5
+Ke 0.0 0.0 0.0
+map_Bump leg_showroom_ddn.png
+map_Kd leg_dif.png
+
+newmtl default
+Ns 0.0
+d 1.0
+illum 2
+Kd 0.7898538076923077 0.8133333333333334 0.6940444444444445
+Ka 0.7898538076923077 0.8133333333333334 0.6940444444444445
+Ks 0.0 0.0 0.0
+Ke 0.0 0.0 0.0
+

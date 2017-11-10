@@ -1,0 +1,25 @@
+<!-- yi : YIDDISH -->
+<resources>
+  <resource name="LANGUAGE">YIDDISH</resource>
+  <resource name="LOCATION"> לאָקאַטיאָן </resource>
+  <resource name="NUMCOMMENTS"> קאָממענץ </resource>
+  <resource name="DEFAULTCATEGORYNAME"> (דיפאָלט) </resource>
+  <resource name="DEFAULTSENDERNAME"> (געסט) </resource>
+  <resource name="CLICK_EDIT"> רעדאַקטירן </resource>
+  <resource name="CLICK_DELETE"> דיליט </resource>
+  <resource name="CLICK_CLOSE"> קלאָוס </resource>
+  <resource name="CLICK_OPENPHOTO"> אפענער </resource>
+  <resource name="CLICK_OPENCATEGORY"> אפענער </resource>
+  <resource name="CLICK_SHOWEDITOR"> אַדמין קאַנסאָול </resource>
+  <resource name="CLICK_SHOWSLIDER"> ווייַז סליידער </resource>
+  <resource name="CLICK_UPLOADFILES"> צופֿעליקער טעקעס </resource>
+  <resource name="CLICK_NEWCATEGORY"> ניו קאַטעגאָריע </resource>
+  <resource name="CLICK_ADDCOMMENT"> לייג קאָמענטאַר </resource>
+  <resource name="CLICK_DELETECOMMENT"> דיליט קאָמענטאַר </resource>
+  <resource name="PROMPT_TYPECATEGORYNAME"> ביטע אַרייַנשרייַב אָרט קאַטעגאָריע נאָמען </resource>
+  <resource name="PROMPT_TYPEPHOTONAME"> ביטע אַרייַנשרייַב אָרט פאָטאָ טיטל </resource>
+  <resource name="PROMPT_TYPECOMMENT"> ביטע אַרייַנשרייַב אָרט נייַ קאָמענטאַר </resource>
+  <resource name="CONFIRM_CLICK_DELETEPHOTO"> ביסט איר זיכער איר ווילן צו ויסמעקן פאָטאָ '(0)'? </resource>
+  <resource name="CONFIRM_CLICK_DELETECATEGORY"> ביסט איר זיכער איר ווילן צו ויסמעקן קאַטעגאָריע '(0)' און אַלע זיין טעקעס? </resource>
+  <resource name="CONFIRM_CLICK_DELETECOMMENT"> ביסט איר זיכער איר ווילן צו ויסמעקן קאָמענטאַר '(0)'?</resource>
+</resources>

@@ -1,0 +1,150 @@
+<div id="dng_showarea" style='overflow:auto;padding:6px;'>
+</div>
+<div id="dng_postarea" style='overflow:auto;height:120px;'>
+	<table border='0' cellspacing='0' cellpadding='4' ID="Table1">
+		<tr>
+			<td>Name:</td>
+			<td><span id='dng_name'></span></td>
+		</tr>
+		<tr>
+			<td>Text:</td>
+			<td>
+				<textarea id="dng_content" style="height:48px;" NAME="dng_content"></textarea>
+			</td>
+		</tr>
+		<tr>
+			<td>&nbsp;</td>
+			<td>
+				<button id="dng_sendbtn">Post Comment</button>
+			</td>
+		</tr>
+	</table>
+</div>
+<script>
+
+//see GalleryPopup.prototype.ShowComments
+var item=Param.arg_item;
+
+var browser=Browser;
+
+var singlearea=null;
+if(!browser.Param.AllowShowComment)
+{
+	dng_showarea.style.display="none";
+	singlearea=dng_postarea;
+}
+if(!browser.Param.AllowPostComment)
+{
+	dng_postarea.style.display="none";
+	singlearea=dng_showarea;
+}
+
+var content=getcontent();
+content.style.overflow="hidden";
+
+dng_name.appendChild(document.createTextNode(browser.Param.LogonUserName||GalleryLocalize.DEFAULTSENDERNAME));
+
+function onresizedialog()
+{
+	var w=content.offsetWidth-12;
+	var h=content.offsetHeight;
+	if(singlearea)
+	{
+		singlearea.style.width=w+"px";
+		singlearea.style.height=h+"px";
+	}
+	else
+	{
+		dng_postarea.style.width=w+"px";
+		dng_postarea.style.height="130px";
+		dng_showarea.style.width=w+"px";
+		dng_showarea.style.height=h-130+"px";
+	}
+	dng_content.style.width=w-100+"px";
+}
+
+dng_sendbtn.onclick=function()
+{
+	var text=dng_content.value;
+	
+	if(text.replace(/\s/g,"").length==0)
+	{
+		dng_content.focus();
+		return;
+	}
+	
+	var p={};
+	p.GuestName=GalleryLocalize.DEFAULTSENDERNAME;
+	p.PhotoID=item.PhotoID;
+	p.CategoryID=item.CategoryID;
+	p.Content=text;
+	p.Callback=function(ret)
+	{
+		if(browser.HandleError(ret))return true;
+		alert("Comment Added");
+		closedialog();
+		showComments();
+	}
+	if(item.PhotoID)
+		browser.AsyncAddPhotoComment(p);
+	else
+		browser.AsyncAddCategoryComment(p);
+	return false;
+}
+
+showComments();
+
+function showComments()
+{
+	var container=dng_showarea;
+	
+	container.innerHTML="";
+
+	if(item.Thumbnail)
+	{
+		var scale = Math.min(128/item.Width, 128/item.Height);
+		var width=Math.floor(item.Width * scale);
+		var height=Math.floor(item.Height * scale)
+		var thumb=Browser.CreateThumbnail(item.Thumbnail,width,height);
+		var d=document.createElement("DIV");
+		d.style.styleFloat="right";
+		d.style["float"]="right";
+		d.style.padding="12px";
+		d.appendChild(thumb);
+		container.appendChild(d);
+	}
+	
+	var cs=item.Comments;
+	
+	var d=document.createElement("DIV");
+
+	d.appendChild(document.createTextNode(item.Title||GalleryLocalize.DEFAULTCATEGORYNAME));
+	d.innerHTML+=" - <span class='GalleryTooltipNumComments'>"+(cs?cs.length:0)+" "+GalleryLocalize.NUMCOMMENTS+"<span>";
+	container.appendChild(d);
+				
+	if(cs&&cs.length>0)
+	{
+		for(var i=0;i<cs.length;i++)
+		{
+			var comment=cs[i];
+			d=document.createElement("DIV");
+			d.className="GalleryComment";
+			var s0=document.createElement("SPAN");
+			s0.innerHTML=GalleryFormatTimeHTML(comment.Time);
+			s0.className="GalleryCommentTime";
+			d.appendChild(s0);
+			var s1=document.createElement("SPAN");
+			s1.appendChild(document.createTextNode(comment.SenderName||GalleryLocalize.DEFAULTSENDERNAME));
+			s1.className="GalleryCommentUser";
+			d.appendChild(s1);
+			d.appendChild(document.createTextNode(" : "));
+			var s2=document.createElement("SPAN");
+			s2.appendChild(document.createTextNode(comment.Content));
+			s2.className="GalleryCommentText";
+			d.appendChild(s2);
+			container.appendChild(d);
+		}
+	}
+}
+
+</script>

@@ -1,0 +1,25 @@
+<!-- sq : ALBANIAN -->
+<resources>
+  <resource name="LANGUAGE">ALBANIAN</resource>
+  <resource name="LOCATION"> Vendndodhja </resource>
+  <resource name="NUMCOMMENTS"> Komente </resource>
+  <resource name="DEFAULTCATEGORYNAME"> (Default) </resource>
+  <resource name="DEFAULTSENDERNAME"> (Vizitues) </resource>
+  <resource name="CLICK_EDIT"> Edit </resource>
+  <resource name="CLICK_DELETE"> Delete </resource>
+  <resource name="CLICK_CLOSE"> Close </resource>
+  <resource name="CLICK_OPENPHOTO"> Open </resource>
+  <resource name="CLICK_OPENCATEGORY"> Open </resource>
+  <resource name="CLICK_SHOWEDITOR"> Admin Console </resource>
+  <resource name="CLICK_SHOWSLIDER"> Trego Slider </resource>
+  <resource name="CLICK_UPLOADFILES"> fotografi Ngarko </resource>
+  <resource name="CLICK_NEWCATEGORY"> New Category </resource>
+  <resource name="CLICK_ADDCOMMENT"> Shto Koment </resource>
+  <resource name="CLICK_DELETECOMMENT"> Delete Comment </resource>
+  <resource name="PROMPT_TYPECATEGORYNAME"> Please input emrin kategori </resource>
+  <resource name="PROMPT_TYPEPHOTONAME"> Ju lutemi hyrje titullin foto </resource>
+  <resource name="PROMPT_TYPECOMMENT"> Ju lutem komentoni hyrje e re </resource>
+  <resource name="CONFIRM_CLICK_DELETEPHOTO"> A jeni i sigurt se doni te e fshini foto '(0)'? </resource>
+  <resource name="CONFIRM_CLICK_DELETECATEGORY"> A jeni i sigurt se doni te e fshini kategori '(0)' dhe të gjitha dosjet e tij? </resource>
+  <resource name="CONFIRM_CLICK_DELETECOMMENT"> A jeni i sigurt se doni të fshirë koment '(0)'?</resource>
+</resources>

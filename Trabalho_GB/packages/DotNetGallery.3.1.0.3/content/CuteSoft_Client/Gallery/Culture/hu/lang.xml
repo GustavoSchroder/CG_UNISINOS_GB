@@ -1,0 +1,25 @@
+<!-- hu : HUNGARIAN -->
+<resources>
+  <resource name="LANGUAGE">HUNGARIAN</resource>
+  <resource name="LOCATION"> Location </resource>
+  <resource name="NUMCOMMENTS"> Megjegyzések </resource>
+  <resource name="DEFAULTCATEGORYNAME"> (Default) </resource>
+  <resource name="DEFAULTSENDERNAME"> (Vendég) </resource>
+  <resource name="CLICK_EDIT"> Szerkesztés </resource>
+  <resource name="CLICK_DELETE"> Törlés </resource>
+  <resource name="CLICK_CLOSE"> Bezár </resource>
+  <resource name="CLICK_OPENPHOTO"> Open </resource>
+  <resource name="CLICK_OPENCATEGORY"> Open </resource>
+  <resource name="CLICK_SHOWEDITOR"> Admin Console </resource>
+  <resource name="CLICK_SHOWSLIDER"> Show Slider </resource>
+  <resource name="CLICK_UPLOADFILES"> Upload file </resource>
+  <resource name="CLICK_NEWCATEGORY"> Új kategória </resource>
+  <resource name="CLICK_ADDCOMMENT"> Add Comment </resource>
+  <resource name="CLICK_DELETECOMMENT"> Megjegyzés törlése </resource>
+  <resource name="PROMPT_TYPECATEGORYNAME"> Kérjük input kategória neve </resource>
+  <resource name="PROMPT_TYPEPHOTONAME"> Kérjük, input Fotó címe </resource>
+  <resource name="PROMPT_TYPECOMMENT"> Please input hozzászólás </resource>
+  <resource name="CONFIRM_CLICK_DELETEPHOTO"> Biztosan törölni kívánja fénykép '(0)'? </resource>
+  <resource name="CONFIRM_CLICK_DELETECATEGORY"> Biztosan törölni kívánja kategória '(0)' és az összes fájlt? </resource>
+  <resource name="CONFIRM_CLICK_DELETECOMMENT"> Biztos benne, hogy szeretné delete comment '(0)'?</resource>
+</resources>

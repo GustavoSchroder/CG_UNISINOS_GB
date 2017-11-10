@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" InitialTargets="unofficial_flayan_glm_init">
+  <PropertyGroup Label="Default initializers for properties">
+    <Linkage-unofficial_flayan_glm Condition="'$(Linkage-unofficial_flayan_glm)' == ''">dynamic</Linkage-unofficial_flayan_glm>
+    <CallingConvention-unofficial_flayan_glm Condition="'$(CallingConvention-unofficial_flayan_glm)' == ''">cdecl</CallingConvention-unofficial_flayan_glm>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(MSBuildThisFileDirectory)../..//build/native/include/;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>$(MSBuildThisFileDirectory)../..//build/native/include/;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <PropertyPageSchema Include="$(MSBuildThisFileDirectory)\default-propertiesui.xml" />
+  </ItemGroup>
+  <UsingTask TaskName="unofficial_flayan_glm_Contains" AssemblyFile="$(MSBuildToolsPath)\Microsoft.Build.Tasks.v4.0.dll" TaskFactory="CodeTaskFactory">
+    <ParameterGroup>
+      <Text Output="false" ParameterType="System.String" />
+      <Library Output="false" Required="true" ParameterType="System.String" />
+      <Value Output="false" Required="true" ParameterType="System.String" />
+      <Result Output="true" ParameterType="System.String" />
+    </ParameterGroup>
+    <Task>
+      <Code>Result = ((Text ?? "").Split(';').Contains(Library) ) ? Value : String.Empty;</Code>
+    </Task>
+  </UsingTask>
+  <Target Name="unofficial_flayan_glm_init">
+    <unofficial_flayan_glm_Contains Text="Linkage-dynamic" Library="unofficial_flayan_glm" Value="dynamic" Condition="'$(Linkage-unofficial_flayan_glm)'==''">
+      <Output TaskParameter="Result" PropertyName="Linkage-unofficial_flayan_glm" />
+    </unofficial_flayan_glm_Contains>
+    <unofficial_flayan_glm_Contains Text="Linkage-static" Library="unofficial_flayan_glm" Value="static" Condition="'$(Linkage-unofficial_flayan_glm)'==''">
+      <Output TaskParameter="Result" PropertyName="Linkage-unofficial_flayan_glm" />
+    </unofficial_flayan_glm_Contains>
+    <unofficial_flayan_glm_Contains Text="Linkage-ltcg" Library="unofficial_flayan_glm" Value="ltcg" Condition="'$(Linkage-unofficial_flayan_glm)'==''">
+      <Output TaskParameter="Result" PropertyName="Linkage-unofficial_flayan_glm" />
+    </unofficial_flayan_glm_Contains>
+    <unofficial_flayan_glm_Contains Text="Linkage-sxs" Library="unofficial_flayan_glm" Value="sxs" Condition="'$(Linkage-unofficial_flayan_glm)'==''">
+      <Output TaskParameter="Result" PropertyName="Linkage-unofficial_flayan_glm" />
+    </unofficial_flayan_glm_Contains>
+    <unofficial_flayan_glm_Contains Text="CallingConvention-cdecl" Library="unofficial_flayan_glm" Value="cdecl" Condition="'$(CallingConvention-unofficial_flayan_glm)'==''">
+      <Output TaskParameter="Result" PropertyName="CallingConvention-unofficial_flayan_glm" />
+    </unofficial_flayan_glm_Contains>
+    <unofficial_flayan_glm_Contains Text="CallingConvention-stdcall" Library="unofficial_flayan_glm" Value="stdcall" Condition="'$(CallingConvention-unofficial_flayan_glm)'==''">
+      <Output TaskParameter="Result" PropertyName="CallingConvention-unofficial_flayan_glm" />
+    </unofficial_flayan_glm_Contains>
+    <unofficial_flayan_glm_Contains Text="CallingConvention-fastcall" Library="unofficial_flayan_glm" Value="fastcall" Condition="'$(CallingConvention-unofficial_flayan_glm)'==''">
+      <Output TaskParameter="Result" PropertyName="CallingConvention-unofficial_flayan_glm" />
+    </unofficial_flayan_glm_Contains>
+    <unofficial_flayan_glm_Contains Text="CallingConvention-thiscall" Library="unofficial_flayan_glm" Value="thiscall" Condition="'$(CallingConvention-unofficial_flayan_glm)'==''">
+      <Output TaskParameter="Result" PropertyName="CallingConvention-unofficial_flayan_glm" />
+    </unofficial_flayan_glm_Contains>
+    <unofficial_flayan_glm_Contains Text="CallingConvention-clrcall" Library="unofficial_flayan_glm" Value="clrcall" Condition="'$(CallingConvention-unofficial_flayan_glm)'==''">
+      <Output TaskParameter="Result" PropertyName="CallingConvention-unofficial_flayan_glm" />
+    </unofficial_flayan_glm_Contains>
+  </Target>
+</Project>

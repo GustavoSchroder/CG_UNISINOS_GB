@@ -1,0 +1,25 @@
+<!-- ar : ARABIC -->
+<resources>
+  <resource name="LANGUAGE">ARABIC</resource>
+  <resource name="LOCATION"> الموقع </resource>
+  <resource name="NUMCOMMENTS"> التعليقات </resource>
+  <resource name="DEFAULTCATEGORYNAME"> (الافتراضي) </resource>
+  <resource name="DEFAULTSENDERNAME"> (ضيف) </resource>
+  <resource name="CLICK_EDIT"> تحرير </resource>
+  <resource name="CLICK_DELETE"> حذف </resource>
+  <resource name="CLICK_CLOSE"> إغلاق </resource>
+  <resource name="CLICK_OPENPHOTO"> فتح </resource>
+  <resource name="CLICK_OPENCATEGORY"> فتح </resource>
+  <resource name="CLICK_SHOWEDITOR"> وحدة التحكم الادارية </resource>
+  <resource name="CLICK_SHOWSLIDER"> إظهار المتزلج </resource>
+  <resource name="CLICK_UPLOADFILES"> تحميل الملفات </resource>
+  <resource name="CLICK_NEWCATEGORY"> فئة جديدة </resource>
+  <resource name="CLICK_ADDCOMMENT"> التعليق </resource>
+  <resource name="CLICK_DELETECOMMENT"> حذف التعليق </resource>
+  <resource name="PROMPT_TYPECATEGORYNAME"> الرجاء إدخال اسم فئة </resource>
+  <resource name="PROMPT_TYPEPHOTONAME"> الرجاء إدخال عنوان الصورة </resource>
+  <resource name="PROMPT_TYPECOMMENT"> الرجاء إدخال تعليق جديد </resource>
+  <resource name="CONFIRM_CLICK_DELETEPHOTO"> هل أنت متأكد أنك تريد حذف الصورة '(0)'؟ </resource>
+  <resource name="CONFIRM_CLICK_DELETECATEGORY"> هل أنت متأكد أنك تريد حذف الفئة '(0)' وجميع ملفاتها؟ </resource>
+  <resource name="CONFIRM_CLICK_DELETECOMMENT"> هل أنت متأكد أنك تريد حذف تعليق '(0)'؟</resource>
+</resources>
